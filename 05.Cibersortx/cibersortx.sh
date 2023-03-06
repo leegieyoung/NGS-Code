@@ -37,6 +37,11 @@ singularity shell --bind /data/keeyoung/scRNA/cibersortx/input/iCD/Only_CodingGe
 singularity shell --bind /data/keeyoung/scRNA/cibersortx/input/iCD/Only_CodingGene_220914/cpm:/src/data --bind /data/keeyoung/scRNA/cibersortx/output/02.Imputed_Cell_Fraction/IBD/RISK_199_cpm_221206:/src/outdir /data/sskimb/Singularity/cibersortx_fractions.sif
 /src/CIBERSORTxFractions --username gylee@soongsil.ac.kr --token 1f766aa1888a03dc415d7d023548af8b --mixture /src/data/RISK_199_cpm_Norm_221206.txt --sigmatrix /src/data/SM_cpm_Only_CodingGene_addBcell_220923.txt --perm 100 --refsample /src/data/iCD_cpm_Only_CodingGene_addBcell_220923.txt --rmbatchSmode TRUE
 
+#RISK_199 #Nrom Protein_Coding_gene, addBcells, cpm
+mkdir -p /data/keeyoung/scRNA/cibersortx/output/02.Imputed_Cell_Fraction/IBD/GSE16879_230112
+singularity shell --bind /data/keeyoung/scRNA/cibersortx/input/iCD/Only_CodingGene_220914/cpm:/src/data --bind /data/keeyoung/scRNA/cibersortx/output/02.Imputed_Cell_Fraction/IBD/GSE16879_230112:/src/outdir /data/sskimb/Singularity/cibersortx_fractions.sif
+/src/CIBERSORTxFractions --username gylee@soongsil.ac.kr --token 1f766aa1888a03dc415d7d023548af8b --mixture /src/data/GSE16879_series_matrix_rmdup_230112.txt --sigmatrix /src/data/SM_cpm_Only_CodingGene_addBcell_220923.txt --perm 100 --refsample /src/data/iCD_cpm_Only_CodingGene_addBcell_220923.txt --rmbatchSmode TRUE --QN TRUE
+
 #RISK #Norm, Protein_Coding_Gene, addBcells, fpkm(rpkm) #wrong
 singularity shell --bind /data/keeyoung/scRNA/cibersortx/input/iCD/Only_CodingGene_220914/rpkm:/src/data --bind /data/keeyoung/scRNA/cibersortx/output/02.Imputed_Cell_Fraction/IBD/RISK_rpkm_221201:/src/outdir /data/sskimb/Singularity/cibersortx_fractions.sif
 

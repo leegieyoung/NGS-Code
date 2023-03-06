@@ -12,6 +12,7 @@ library(GO.db)
 library(ComplexHeatmap)
 library(mixOmics)
 library(dplyr)
+library(WGCNA)
 })
 
 RNAseq <- function(name,iCD){
@@ -287,7 +288,7 @@ datTraits <- as.data.frame(sample.pheno)
 datTraits$sample.pheno <- gsub("L_NR",2,datTraits$sample.pheno)
 datTraits$sample.pheno <- gsub("L_R",1,datTraits$sample.pheno)
 datTraits$sample.pheno <- as.numeric(datTraits$sample.pheno)
-
+nSamples <- length(rownames(datTraits))
 moduleTraitCor = cor(MEs, datTraits, use = "p");
 moduleTraitPvalue = corPvalueStudent(moduleTraitCor, nSamples);
 
