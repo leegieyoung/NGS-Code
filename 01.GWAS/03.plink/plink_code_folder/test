@@ -1,0 +1,224 @@
+mkdir: cannot create directory ‘/scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder’: File exists
+mkdir: cannot create directory ‘//scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb’: File exists
+PLINK v1.90b6.18 64-bit (16 Jun 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb.log.
+Options in effect:
+  --bfile //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/Imputed_ADNI_JBB_2_707_NoNA
+  --extract //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_SNP.txt
+  --make-bed
+  --out //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb
+
+385441 MB RAM detected; reserving 192720 MB for main workspace.
+9108201 variants loaded from .bim file.
+707 people (419 males, 288 females) loaded from .fam.
+707 phenotype values loaded from .fam.
+--extract: 225 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 707 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+225 variants and 707 people pass filters and QC.
+Among remaining phenotypes, 509 are cases and 198 are controls.
+--make-bed to
+//scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb.bed
++
+//scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb.bim
++
+//scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb.fam
+... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+PLINK v1.90b6.18 64-bit (16 Jun 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG.log.
+Options in effect:
+  --bfile //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb
+  --extract //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG.txt
+  --keep-allele-order
+  --make-bed
+  --out //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG
+
+385441 MB RAM detected; reserving 192720 MB for main workspace.
+225 variants loaded from .bim file.
+707 people (419 males, 288 females) loaded from .fam.
+707 phenotype values loaded from .fam.
+--extract: 196 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 707 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+196 variants and 707 people pass filters and QC.
+Among remaining phenotypes, 509 are cases and 198 are controls.
+--make-bed to
+//scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG.bed
++
+//scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG.bim
++
+//scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG.fam
+... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+PLINK v1.90b6.18 64-bit (16 Jun 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Note: --recodeHV flag deprecated.  Use "--recode HV" or "--recode HV-1chr".
+Logging to //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_recodeHV.log.
+Options in effect:
+  --bfile //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG
+  --keep-allele-order
+  --out //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_recodeHV
+  --recode HV-1chr
+
+385441 MB RAM detected; reserving 192720 MB for main workspace.
+196 variants loaded from .bim file.
+707 people (419 males, 288 females) loaded from .fam.
+707 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 707 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+196 variants and 707 people pass filters and QC.
+Among remaining phenotypes, 509 are cases and 198 are controls.
+--recode HV-1chr to
+//scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_recodeHV.ped
++
+//scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_recodeHV.info
+... done.
+PLINK v1.90b6.18 64-bit (16 Jun 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_freq.log.
+Options in effect:
+  --bfile //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG
+  --freq case-control
+  --keep-allele-order
+  --out //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_freq
+
+385441 MB RAM detected; reserving 192720 MB for main workspace.
+196 variants loaded from .bim file.
+707 people (419 males, 288 females) loaded from .fam.
+707 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 707 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+--freq case-control: Phenotype-stratified allele frequencies (founders only)
+written to
+//scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_freq.frq.cc
+.
+PLINK v1.90b6.18 64-bit (16 Jun 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_logistic.log.
+Options in effect:
+  --bfile //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG
+  --covar //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/logistic.convar_mds.txt
+  --hide-covar
+  --keep-allele-order
+  --logistic
+  --out //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_logistic
+  --sex
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+Note: --sex flag deprecated.  Use e.g. "--linear sex".
+385441 MB RAM detected; reserving 192720 MB for main workspace.
+196 variants loaded from .bim file.
+707 people (419 males, 288 females) loaded from .fam.
+707 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 10 covariates loaded.
+Before main variant filters, 707 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+196 variants and 707 people pass filters and QC.
+Among remaining phenotypes, 509 are cases and 198 are controls.
+Writing logistic model association results to
+//scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_logistic.assoc.logistic
+... 0%done.
+PLINK v1.90b6.18 64-bit (16 Jun 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_maf005.log.
+Options in effect:
+  --bfile //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG
+  --extract //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_maf005.txt
+  --keep-allele-order
+  --make-bed
+  --out //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_maf005
+
+385441 MB RAM detected; reserving 192720 MB for main workspace.
+196 variants loaded from .bim file.
+707 people (419 males, 288 females) loaded from .fam.
+707 phenotype values loaded from .fam.
+--extract: 110 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 707 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+110 variants and 707 people pass filters and QC.
+Among remaining phenotypes, 509 are cases and 198 are controls.
+--make-bed to
+//scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_maf005.bed
++
+//scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_maf005.bim
++
+//scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_maf005.fam
+... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+PLINK v1.90b6.18 64-bit (16 Jun 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Note: --recodeHV flag deprecated.  Use "--recode HV" or "--recode HV-1chr".
+Logging to //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_maf005_recodeHV.log.
+Options in effect:
+  --bfile //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_maf005
+  --keep-allele-order
+  --out //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_maf005_recodeHV
+  --recode HV-1chr
+
+385441 MB RAM detected; reserving 192720 MB for main workspace.
+110 variants loaded from .bim file.
+707 people (419 males, 288 females) loaded from .fam.
+707 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 707 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+110 variants and 707 people pass filters and QC.
+Among remaining phenotypes, 509 are cases and 198 are controls.
+--recode HV-1chr to
+//scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_maf005_recodeHV.ped
++
+//scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_maf005_recodeHV.info
+... done.
+PLINK v1.90b6.18 64-bit (16 Jun 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_maf005_freq.log.
+Options in effect:
+  --bfile //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_maf005
+  --freq case-control
+  --keep-allele-order
+  --out //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_maf005_freq
+
+385441 MB RAM detected; reserving 192720 MB for main workspace.
+110 variants loaded from .bim file.
+707 people (419 males, 288 females) loaded from .fam.
+707 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 707 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+--freq case-control: Phenotype-stratified allele frequencies (founders only)
+written to
+//scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_maf005_freq.frq.cc
+.
+PLINK v1.90b6.18 64-bit (16 Jun 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_maf005_logistic.log.
+Options in effect:
+  --bfile //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_maf005
+  --covar //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/logistic.convar_mds.txt
+  --hide-covar
+  --keep-allele-order
+  --logistic
+  --out //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_maf005_logistic
+  --sex
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+Note: --sex flag deprecated.  Use e.g. "--linear sex".
+385441 MB RAM detected; reserving 192720 MB for main workspace.
+110 variants loaded from .bim file.
+707 people (419 males, 288 females) loaded from .fam.
+707 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 10 covariates loaded.
+Before main variant filters, 707 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+110 variants and 707 people pass filters and QC.
+Among remaining phenotypes, 509 are cases and 198 are controls.
+Writing logistic model association results to
+//scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_JBB_2_707_analysis_folder/merge/haploview/CPN1_15kb/CPN1_15kb_ATCG_maf005_logistic.assoc.logistic
+... 0%done.

@@ -1,0 +1,13 @@
+PLINK v1.90b6.18 64-bit (16 Jun 2020)
+Options in effect:
+  --bfile //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_pdxen_analysis_folder/merge/haploview/TAMM41_15kb/TAMM41_15kb
+  --extract //scratch/x1997a11/GWAS/pdxen_AD/result_folder/Imputed_ADNI_pdxen_analysis_folder/merge/haploview/TAMM41_15kb/TAMM41_15kb_ATCG.txt  
+
+Hostname: login02
+Working directory: /scratch/x1997a11/GWAS/pdxen_AD/Code_folder
+Start time: Mon May 24 15:43:30 2021
+
+Error: Invalid --extract parameter sequence.
+For more information, try "plink --help <flag name>" or "plink --help | more".
+
+End time: Mon May 24 15:43:30 2021
