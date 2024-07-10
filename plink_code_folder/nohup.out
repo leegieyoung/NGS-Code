@@ -1,0 +1,4668 @@
+bash: /mnt/nas/gylee/0.GWAS/4.PRS/test/calculate_PRS.1e-4.min0.02.sh: No such file or directory
+/mnt/nas/gylee/0.GWAS/4.PRS/test
+
+
+
+CHR is 1
+
+
+
+
+
+
+
+CHR is 2
+
+
+
+
+
+
+
+CHR is 3
+
+
+
+
+
+
+
+CHR is 4
+
+
+
+
+
+
+
+CHR is 5
+
+
+
+
+
+
+
+CHR is 6
+
+
+
+
+
+
+
+CHR is 7
+
+
+
+
+
+
+
+CHR is 8
+
+
+
+
+
+
+
+CHR is 9
+
+
+
+
+
+
+
+CHR is 10
+
+
+
+
+
+
+
+CHR is 11
+
+
+
+
+
+
+
+CHR is 12
+
+
+
+
+
+
+
+CHR is 13
+
+
+
+
+
+
+
+CHR is 14
+
+
+
+
+
+
+
+CHR is 15
+
+
+
+
+
+
+
+CHR is 16
+
+
+
+
+
+
+
+CHR is 17
+
+
+
+
+
+
+
+CHR is 18
+
+
+
+
+
+
+
+CHR is 19
+
+
+
+
+
+
+
+CHR is 20
+
+
+
+
+
+
+
+CHR is 21
+
+
+
+
+
+
+
+CHR is 22
+
+
+
+
+Checking the headers and starting positions of 22 files
+Writing to /tmp/bcftools.bDmz8F
+Merging 1 temporary files
+/mnt/nas/gylee/0.GWAS/4.PRS/test
+
+
+
+CHR is 1
+
+
+
+
+
+
+
+CHR is 2
+
+
+
+
+Cleaning
+Done
+
+
+
+CHR is 3
+
+
+
+
+
+
+ -------------------------------------------------------------------------------- 
+          DosageConvertor - Converting Dosage from Minimac3/4 to other Formats     
+ --------------------------------------------------------------------------------
+ (c) 2015 - Sayantan Das 
+
+ Version: 1.0.0;
+ Built: Mon Apr 17 04:52:11 UTC 2023 by root
+
+ URL = http://genome.sph.umich.edu/wiki/DosageConvertor
+ GIT = https://github.com/Santy-8128/DosageConvertor
+
+**************************************************************************************
+A new version, 1.0.4, of DosageConvertor is available (currently running 1.0.0)
+**************************************************************************************
+
+
+ Command Line Options: 
+        Input Dosage : --vcfDose [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.02/Ukb/sort_complex_vars.vcf.gz],
+                       --info [], --tag [DS]
+   Output Parameters : --prefix [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.02/sort_complex_vars_beta],
+                       --format [1], --type [plink], --nobgzip
+    Other Parameters : --buffer [10000], --allDiploid, --trimNames,
+                       --trimLength [100], --SexFile [], --idDelimiter [],
+                       --help, --params
+           PhoneHome : --noPhoneHome, --phoneHomeThinning [50]
+
+ WARNING !!! Parameter --buffer will be ignored when be used with --type "plink" !
+
+ ------------------------------------------------------------------------------
+                             INPUT VCF DOSAGE FILE                             
+ ------------------------------------------------------------------------------
+
+ Detecting Dosage File Type ... 
+
+ Format = VCF (Variant Call Format) 
+
+ Calculating number of Samples in VCF File ...
+ Calculating number Markers in VCF File ...
+
+
+ Number of Samples read from VCF Dosage File              : 52634
+ Number of Markers read from VCF Dosage File              : 655
+
+
+
+ Number of Imputed Variants                               : 606
+ Number of Genotyped and Imputed Variants                 : 49
+ Number of Genotyped Only Variants                        : 0
+
+ Loading Dosage Data from VCF File       : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.02/Ukb/sort_complex_vars.vcf.gz
+
+ Reading and Importing Data from VCF File ...
+
+    Writing to PLINK output file ...
+
+
+
+CHR is 4
+
+
+
+
+
+
+
+CHR is 5
+
+
+
+
+
+
+
+CHR is 6
+
+
+
+
+
+
+
+CHR is 7
+
+
+
+
+    Finished Writing ALL markers to PLINK output file ...
+
+
+ Number of Samples read from VCF Dosage File              : 52634
+ Number of Markers read from VCF Dosage File              : 655
+
+ ------------------------------------------------------------------------------
+                                PLINK OUTPUT FILE                            
+ ------------------------------------------------------------------------------
+
+
+ Dosage Information written to PLINK Dosage File  : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.02/sort_complex_vars_beta.plink.dosage.gz 
+ Map Information written to PLINK Map File        : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.02/sort_complex_vars_beta.plink.map 
+ Family Information written to PLINK Fam File     : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.02/sort_complex_vars_beta.plink.fam 
+
+ ------------------------------------------------------------------------------
+                                END OF PROGRAM                                 
+ ------------------------------------------------------------------------------
+
+ Program Successfully Implemented... 
+ 
+ Total Run completed in 0 hours, 0 mins, 49 seconds.
+
+ Thank You for using DosageConvertor !!! 
+
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.02/Imputed_Ukb_T2D_ratio2_Result.log.
+Options in effect:
+  --dosage /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.02/sort_complex_vars_beta.plink.dosage.gz format=1 noheader
+  --fam /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.02/sort_complex_vars_beta.plink.fam
+  --out /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.02/Imputed_Ukb_T2D_ratio2_Result
+  --score /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.02/Imputed_Ukb_T2D_ratio2_input.txt 1 2 3 header sum include-cnt double-dosage
+
+15868 MB RAM detected; reserving 7934 MB for main workspace.
+52634 people (0 males, 0 females, 52634 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.02/Imputed_Ukb_T2D_ratio2_Result.nosex
+.
+Using 1 thread (no multithreaded calculations invoked).
+52634 people pass filters and QC.
+Note: No phenotypes present.
+--score: 648 entries loaded from
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.02/Imputed_Ukb_T2D_ratio2_input.txt.
+--dosage: Reading from
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.02/sort_complex_vars_beta.plink.dosage.gz.
+--score: Results written to
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.02/Imputed_Ukb_T2D_ratio2_Result.profile
+.
+[1] "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.02"
+[1] "Start_make_add_pheno"
+[1] "Finish"
+Warning message:
+In write.csv(data, paste0(DIR, "/", TRAIT1, "_addPheno.csv"), quote = F,  :
+  attempt to set 'col.names' ignored
+[1] "Finish"
+Warning message:
+In write.csv(data, paste0(DIR, "/", TRAIT2, "_addPheno.csv"), quote = F,  :
+  attempt to set 'col.names' ignored
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+              FID             IID SCORESUM   PHENO
+1 4642463_4642463 4642463_4642463  68.6463 Control
+2 5930440_5930440 5930440_5930440  65.4574 Control
+3 4261816_4261816 4261816_4261816  68.6558 Control
+4 5614427_5614427 5614427_5614427  65.9845 Control
+5 2431041_2431041 2431041_2431041  67.1110 Control
+6 5937366_5937366 5937366_5937366  66.6827 Control
+null device 
+          1 
+null device 
+          1 
+
+
+
+CHR is 8
+
+
+
+
+
+
+
+CHR is 9
+
+
+
+
+
+
+
+CHR is 10
+
+
+
+
+
+
+
+CHR is 11
+
+
+
+
+
+
+
+CHR is 12
+
+
+
+
+
+
+
+CHR is 13
+
+
+
+
+
+
+
+CHR is 14
+
+
+
+
+
+
+
+CHR is 15
+
+
+
+
+
+
+
+CHR is 16
+
+
+
+
+
+
+
+CHR is 17
+
+
+
+
+
+
+
+CHR is 18
+
+
+
+
+
+
+
+CHR is 19
+
+
+
+
+
+
+
+CHR is 20
+
+
+
+
+
+
+
+CHR is 21
+
+
+
+
+
+
+
+CHR is 22
+
+
+
+
+Checking the headers and starting positions of 22 files
+Writing to /tmp/bcftools.uQhEXb
+Merging 1 temporary files
+Cleaning
+Done
+
+
+ -------------------------------------------------------------------------------- 
+          DosageConvertor - Converting Dosage from Minimac3/4 to other Formats     
+ --------------------------------------------------------------------------------
+ (c) 2015 - Sayantan Das 
+
+ Version: 1.0.0;
+ Built: Mon Apr 17 04:52:11 UTC 2023 by root
+
+ Command Line Options: 
+        Input Dosage : --vcfDose [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.2/Ukb/sort_complex_vars.vcf.gz],
+                       --info [], --tag [DS]
+   Output Parameters : --prefix [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.2/sort_complex_vars_beta],
+                       --format [1], --type [plink], --nobgzip
+    Other Parameters : --buffer [10000], --allDiploid, --trimNames,
+                       --trimLength [100], --SexFile [], --idDelimiter [],
+                       --help, --params
+           PhoneHome : --noPhoneHome, --phoneHomeThinning [50]
+
+
+ URL = http://genome.sph.umich.edu/wiki/DosageConvertor
+ GIT = https://github.com/Santy-8128/DosageConvertor
+ WARNING !!! Parameter --buffer will be ignored when be used with --type "plink" !
+
+ ------------------------------------------------------------------------------
+                             INPUT VCF DOSAGE FILE                             
+ ------------------------------------------------------------------------------
+
+ Detecting Dosage File Type ... 
+
+ Format = VCF (Variant Call Format) 
+
+ Calculating number of Samples in VCF File ...
+ Calculating number Markers in VCF File ...
+
+
+ Number of Samples read from VCF Dosage File              : 52634
+ Number of Markers read from VCF Dosage File              : 592
+
+
+
+ Number of Imputed Variants                               : 549
+ Number of Genotyped and Imputed Variants                 : 43
+ Number of Genotyped Only Variants                        : 0
+
+ Loading Dosage Data from VCF File       : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.2/Ukb/sort_complex_vars.vcf.gz
+
+ Reading and Importing Data from VCF File ...
+
+    Writing to PLINK output file ...
+    Finished Writing ALL markers to PLINK output file ...
+
+
+ Number of Samples read from VCF Dosage File              : 52634
+ Number of Markers read from VCF Dosage File              : 592
+
+ ------------------------------------------------------------------------------
+                                PLINK OUTPUT FILE                            
+ ------------------------------------------------------------------------------
+
+
+ Dosage Information written to PLINK Dosage File  : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.2/sort_complex_vars_beta.plink.dosage.gz 
+ Map Information written to PLINK Map File        : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.2/sort_complex_vars_beta.plink.map 
+ Family Information written to PLINK Fam File     : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.2/sort_complex_vars_beta.plink.fam 
+
+ ------------------------------------------------------------------------------
+                                END OF PROGRAM                                 
+ ------------------------------------------------------------------------------
+
+ Program Successfully Implemented... 
+ 
+ Total Run completed in 0 hours, 0 mins, 43 seconds.
+
+ Thank You for using DosageConvertor !!! 
+
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.2/Imputed_Ukb_T2D_ratio2_Result.log.
+Options in effect:
+  --dosage /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.2/sort_complex_vars_beta.plink.dosage.gz format=1 noheader
+  --fam /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.2/sort_complex_vars_beta.plink.fam
+  --out /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.2/Imputed_Ukb_T2D_ratio2_Result
+  --score /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.2/Imputed_Ukb_T2D_ratio2_input.txt 1 2 3 header sum include-cnt double-dosage
+
+15868 MB RAM detected; reserving 7934 MB for main workspace.
+52634 people (0 males, 0 females, 52634 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.2/Imputed_Ukb_T2D_ratio2_Result.nosex
+.
+Using 1 thread (no multithreaded calculations invoked).
+52634 people pass filters and QC.
+Note: No phenotypes present.
+--score: 585 entries loaded from
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.2/Imputed_Ukb_T2D_ratio2_input.txt.
+--dosage: Reading from
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.2/sort_complex_vars_beta.plink.dosage.gz.
+--score: Results written to
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.2/Imputed_Ukb_T2D_ratio2_Result.profile
+.
+[1] "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2.e-4.min0.2"
+[1] "Start_make_add_pheno"
+[1] "Finish"
+Warning message:
+In write.csv(data, paste0(DIR, "/", TRAIT1, "_addPheno.csv"), quote = F,  :
+  attempt to set 'col.names' ignored
+[1] "Finish"
+Warning message:
+In write.csv(data, paste0(DIR, "/", TRAIT2, "_addPheno.csv"), quote = F,  :
+  attempt to set 'col.names' ignored
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+              FID             IID SCORESUM   PHENO
+1 4642463_4642463 4642463_4642463  65.0248 Control
+2 5930440_5930440 5930440_5930440  62.2410 Control
+3 4261816_4261816 4261816_4261816  63.6982 Control
+4 5614427_5614427 5614427_5614427  61.9635 Control
+5 2431041_2431041 2431041_2431041  62.6882 Control
+6 5937366_5937366 5937366_5937366  61.2071 Control
+null device 
+          1 
+null device 
+          1 
+/mnt/nas/gylee/0.GWAS/4.PRS/test
+
+
+
+CHR is 1
+
+
+
+
+
+
+
+CHR is 2
+
+
+
+
+
+
+
+CHR is 3
+
+
+
+
+
+
+
+CHR is 4
+
+
+
+
+
+
+
+CHR is 5
+
+
+
+
+
+
+
+CHR is 6
+
+
+
+
+
+
+
+CHR is 7
+
+
+
+
+
+
+
+CHR is 8
+
+
+
+
+
+
+
+CHR is 9
+
+
+
+
+
+
+
+CHR is 10
+
+
+
+
+
+
+
+CHR is 11
+
+
+
+
+
+
+
+CHR is 12
+
+
+
+
+
+
+
+CHR is 13
+
+
+
+
+
+
+
+CHR is 14
+
+
+
+
+
+
+
+CHR is 15
+
+
+
+
+
+
+
+CHR is 16
+
+
+
+
+
+
+
+CHR is 17
+
+
+
+
+
+
+
+CHR is 18
+
+
+
+
+
+
+
+CHR is 19
+
+
+
+
+
+
+
+CHR is 20
+
+
+
+
+
+
+
+CHR is 21
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.premiumT2D/Imputed_Ukb_T2D_ratio2_premium.prune.21_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.premiumT2D/Ukb/raw_21.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.premiumT2D/Ukb/raw_21.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.premiumT2D/Ukb/reh_21.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 22
+
+
+
+
+Checking the headers and starting positions of 22 files
+Writing to /tmp/bcftools.uFFen9
+Merging 1 temporary files
+Cleaning
+Done
+
+
+ -------------------------------------------------------------------------------- 
+          DosageConvertor - Converting Dosage from Minimac3/4 to other Formats     
+ --------------------------------------------------------------------------------
+ (c) 2015 - Sayantan Das 
+
+ Version: 1.0.0;
+ Built: Mon Apr 17 04:52:11 UTC 2023 by root
+
+ Command Line Options: 
+        Input Dosage : --vcfDose [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.premiumT2D/Ukb/sort_complex_vars.vcf.gz],
+                       --info [], --tag [DS]
+   Output Parameters : --prefix [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.premiumT2D/sort_complex_vars_beta],
+                       --format [1], --type [plink], --nobgzip
+    Other Parameters : --buffer [10000], --allDiploid, --trimNames,
+                       --trimLength [100], --SexFile [], --idDelimiter [],
+                       --help, --params
+           PhoneHome : --noPhoneHome, --phoneHomeThinning [50]
+
+
+ URL = http://genome.sph.umich.edu/wiki/DosageConvertor
+ GIT = https://github.com/Santy-8128/DosageConvertor
+ WARNING !!! Parameter --buffer will be ignored when be used with --type "plink" !
+
+ ------------------------------------------------------------------------------
+                             INPUT VCF DOSAGE FILE                             
+ ------------------------------------------------------------------------------
+
+ Detecting Dosage File Type ... 
+
+ Format = VCF (Variant Call Format) 
+
+ Calculating number of Samples in VCF File ...
+ Calculating number Markers in VCF File ...
+
+
+ Number of Samples read from VCF Dosage File              : 52634
+ Number of Markers read from VCF Dosage File              : 173
+
+
+
+ Number of Imputed Variants                               : 149
+ Number of Genotyped and Imputed Variants                 : 24
+ Number of Genotyped Only Variants                        : 0
+
+ Loading Dosage Data from VCF File       : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.premiumT2D/Ukb/sort_complex_vars.vcf.gz
+
+ Reading and Importing Data from VCF File ...
+
+    Writing to PLINK output file ...
+    Finished Writing ALL markers to PLINK output file ...
+
+
+ Number of Samples read from VCF Dosage File              : 52634
+ Number of Markers read from VCF Dosage File              : 173
+
+ ------------------------------------------------------------------------------
+                                PLINK OUTPUT FILE                            
+ ------------------------------------------------------------------------------
+
+
+ Dosage Information written to PLINK Dosage File  : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.premiumT2D/sort_complex_vars_beta.plink.dosage.gz 
+ Map Information written to PLINK Map File        : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.premiumT2D/sort_complex_vars_beta.plink.map 
+ Family Information written to PLINK Fam File     : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.premiumT2D/sort_complex_vars_beta.plink.fam 
+
+ ------------------------------------------------------------------------------
+                                END OF PROGRAM                                 
+ ------------------------------------------------------------------------------
+
+ Program Successfully Implemented... 
+ 
+ Total Run completed in 0 hours, 0 mins, 12 seconds.
+
+ Thank You for using DosageConvertor !!! 
+
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.premiumT2D/Imputed_Ukb_T2D_ratio2_premium_Result.log.
+Options in effect:
+  --dosage /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.premiumT2D/sort_complex_vars_beta.plink.dosage.gz format=1 noheader
+  --fam /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.premiumT2D/sort_complex_vars_beta.plink.fam
+  --out /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.premiumT2D/Imputed_Ukb_T2D_ratio2_premium_Result
+  --score /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.premiumT2D/Imputed_Ukb_T2D_ratio2_premium_input.txt 1 2 3 header sum include-cnt double-dosage
+
+15868 MB RAM detected; reserving 7934 MB for main workspace.
+52634 people (0 males, 0 females, 52634 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.premiumT2D/Imputed_Ukb_T2D_ratio2_premium_Result.nosex
+.
+Using 1 thread (no multithreaded calculations invoked).
+52634 people pass filters and QC.
+Note: No phenotypes present.
+--score: 173 entries loaded from
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.premiumT2D/Imputed_Ukb_T2D_ratio2_premium_input.txt.
+--dosage: Reading from
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.premiumT2D/sort_complex_vars_beta.plink.dosage.gz.
+--score: Results written to
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.premiumT2D/Imputed_Ukb_T2D_ratio2_premium_Result.profile
+.
+[1] "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.premiumT2D"
+[1] "Start_make_add_pheno"
+[1] "Finish"
+Warning message:
+In write.csv(data, paste0(DIR, "/", TRAIT1, "_addPheno.csv"), quote = F,  :
+  attempt to set 'col.names' ignored
+[1] "Finish"
+Warning message:
+In write.csv(data, paste0(DIR, "/", TRAIT2, "_addPheno.csv"), quote = F,  :
+  attempt to set 'col.names' ignored
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+              FID             IID SCORESUM   PHENO
+1 4642463_4642463 4642463_4642463  7.87489 Control
+2 5930440_5930440 5930440_5930440  7.77755 Control
+3 4261816_4261816 4261816_4261816  6.44998 Control
+4 5614427_5614427 5614427_5614427  7.14919 Control
+5 2431041_2431041 2431041_2431041  7.32922 Control
+6 5937366_5937366 5937366_5937366  7.93276 Control
+null device 
+          1 
+null device 
+          1 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+   0    1 
+9121 1405 
+        OR 2.5% 97.5%            p
+pheno 1.73 1.61  1.86 3.939546e-49
+        OR 2.5% 97.5%            p
+pheno 2.03 1.87  2.21 2.557409e-60
+       OR 2.5% 97.5%            p
+pheno 2.2 1.98  2.44 1.260909e-49
+
+   0    1 
+4871  393 
+/mnt/nas/gylee/0.GWAS/4.PRS/test
+cp: cannot stat ‘/mnt/nas/gylee/0.GWAS/2.plink_result/Imputed_Ukb_T2D_ratio2_premium/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2.prune_marker.txt’: No such file or directory
+awk: fatal: cannot open file `/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune_marker.txt' for reading (No such file or directory)
+awk: fatal: cannot open file `/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune_marker.txt' for reading (No such file or directory)
+
+
+
+CHR is 1
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.1_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_1.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_1.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_1.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 2
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.2_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_2.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_2.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_2.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 3
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.3_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_3.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_3.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_3.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 4
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.4_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_4.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_4.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_4.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 5
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.5_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_5.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_5.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_5.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 6
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.6_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_6.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_6.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_6.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 7
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.7_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_7.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_7.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_7.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+/mnt/nas/gylee/0.GWAS/4.PRS/test
+
+
+
+CHR is 8
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.8_var_region.txt
+cp: cannot stat ‘/mnt/nas/gylee/0.GWAS/2.plink_result/Imputed_Ukb_T2D_ratio2_premium/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02.prune_marker.txt’: No such file or directory
+awk: fatal: cannot open file `/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune_marker.txt' for reading (No such file or directory)
+awk: fatal: cannot open file `/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune_marker.txt' for reading (No such file or directory)
+
+
+
+CHR is 1
+
+
+
+
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_8.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_8.Ukb.vars.vcf.gz
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.1_var_region.txt
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_8.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_1.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_1.Ukb.vars.vcf.gz
+
+
+
+CHR is 9
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_1.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.9_var_region.txt
+
+
+
+CHR is 2
+
+
+
+
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_9.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_9.Ukb.vars.vcf.gz
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.2_var_region.txt
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_9.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_2.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_2.Ukb.vars.vcf.gz
+
+
+
+CHR is 10
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_2.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.10_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_10.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_10.Ukb.vars.vcf.gz
+
+
+
+CHR is 3
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.3_var_region.txt
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_10.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_3.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_3.Ukb.vars.vcf.gz
+
+
+
+CHR is 11
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_3.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.11_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_11.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_11.Ukb.vars.vcf.gz
+
+
+
+CHR is 4
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_11.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.4_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_4.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_4.Ukb.vars.vcf.gz
+
+
+
+CHR is 12
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_4.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.12_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_12.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_12.Ukb.vars.vcf.gz
+
+
+
+CHR is 5
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_12.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.5_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_5.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_5.Ukb.vars.vcf.gz
+
+
+
+CHR is 13
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.13_var_region.txt
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_5.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_13.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_13.Ukb.vars.vcf.gz
+
+
+
+CHR is 6
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_13.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.6_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_6.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_6.Ukb.vars.vcf.gz
+
+
+
+CHR is 14
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_6.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.14_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_14.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_14.Ukb.vars.vcf.gz
+
+
+
+CHR is 7
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_14.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.7_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_7.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_7.Ukb.vars.vcf.gz
+
+
+
+CHR is 15
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_7.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.15_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_15.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_15.Ukb.vars.vcf.gz
+
+
+
+CHR is 8
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.8_var_region.txt
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_15.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_8.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_8.Ukb.vars.vcf.gz
+
+
+
+CHR is 16
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_8.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.16_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_16.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_16.Ukb.vars.vcf.gz
+
+
+
+CHR is 9
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.9_var_region.txt
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_16.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_9.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_9.Ukb.vars.vcf.gz
+
+
+
+CHR is 17
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_9.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.17_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_17.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_17.Ukb.vars.vcf.gz
+
+
+
+CHR is 10
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.10_var_region.txt
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_17.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_10.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_10.Ukb.vars.vcf.gz
+
+
+
+CHR is 18
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_10.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.18_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_18.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_18.Ukb.vars.vcf.gz
+
+
+
+CHR is 11
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_18.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.11_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_11.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_11.Ukb.vars.vcf.gz
+
+
+
+CHR is 19
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.19_var_region.txt
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_11.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_19.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_19.Ukb.vars.vcf.gz
+
+
+
+CHR is 12
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_19.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.12_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_12.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_12.Ukb.vars.vcf.gz
+
+
+
+CHR is 20
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_12.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.20_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_20.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_20.Ukb.vars.vcf.gz
+
+
+
+CHR is 13
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_20.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.13_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_13.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_13.Ukb.vars.vcf.gz
+
+
+
+CHR is 21
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_13.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.21_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_21.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_21.Ukb.vars.vcf.gz
+
+
+
+CHR is 14
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_21.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.14_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_14.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_14.Ukb.vars.vcf.gz
+
+
+
+CHR is 22
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_14.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium.prune.22_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_22.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/raw_22.Ukb.vars.vcf.gz
+
+
+
+CHR is 15
+
+
+
+
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/reh_22.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.15_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_15.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_15.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_15.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Checking the headers and starting positions of 22 files
+
+
+
+CHR is 16
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.16_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_16.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_16.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_16.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Writing to /tmp/bcftools.HUeAgE
+
+
+
+CHR is 17
+
+
+
+
+Merging 0 temporary files
+Cleaning
+Done
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.17_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_17.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_17.Ukb.vars.vcf.gz
+
+
+ -------------------------------------------------------------------------------- 
+          DosageConvertor - Converting Dosage from Minimac3/4 to other Formats     
+ --------------------------------------------------------------------------------
+ (c) 2015 - Sayantan Das 
+
+ Version: 1.0.0;
+ Built: Mon Apr 17 04:52:11 UTC 2023 by root
+
+ Command Line Options: 
+        Input Dosage : --vcfDose [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Ukb/sort_complex_vars.vcf.gz],
+                       --info [], --tag [DS]
+   Output Parameters : --prefix [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/sort_complex_vars_beta],
+                       --format [1], --type [plink], --nobgzip
+    Other Parameters : --buffer [10000], --allDiploid, --trimNames,
+                       --trimLength [100], --SexFile [], --idDelimiter [],
+                       --help, --params
+           PhoneHome : --noPhoneHome, --phoneHomeThinning [50]
+
+
+ URL = http://genome.sph.umich.edu/wiki/DosageConvertor
+ GIT = https://github.com/Santy-8128/DosageConvertor
+ WARNING !!! Parameter --buffer will be ignored when be used with --type "plink" !
+
+ ------------------------------------------------------------------------------
+                             INPUT VCF DOSAGE FILE                             
+ ------------------------------------------------------------------------------
+
+ Detecting Dosage File Type ... 
+
+ Format = VCF (Variant Call Format) 
+
+ Calculating number of Samples in VCF File ...
+
+ ------------------------------------------------------------------------------
+                                    ERROR !!!                                  
+ ------------------------------------------------------------------------------
+
+ Reference VCF File contains chromosome : 
+ VCF File can only contain chromosomes 1-22, X ! 
+ Please verify the input file(s) ! 
+ Type --help for usage details 
+ Contact author [sayantan@umich.edu] if you still need help ... 
+ Program Aborting ... 
+
+ Program Exiting ... 
+
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium_Result.log.
+Options in effect:
+  --dosage /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/sort_complex_vars_beta.plink.dosage.gz format=1 noheader
+  --fam /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/sort_complex_vars_beta.plink.fam
+  --out /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium_Result
+  --score /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium_input.txt 1 2 3 header sum include-cnt double-dosage
+
+15868 MB RAM detected; reserving 7934 MB for main workspace.
+Error: Failed to open
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/sort_complex_vars_beta.plink.fam.
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_17.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+sed: can't read /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2/Imputed_Ukb_T2D_ratio2_premium_Result.profile: No such file or directory
+
+
+
+CHR is 18
+
+
+
+
+[1] "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.2"
+[1] "Start_make_add_pheno"
+Error in read.table(paste0(DIR, "/", Type, "_Result.txt"), header = T) : 
+  no lines available in input
+Execution halted
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.18_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_18.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_18.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_18.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 19
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.19_var_region.txt
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error in file(file, "rt") : cannot open the connection
+Calls: read.csv -> read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file 'type2diabet_addPheno.csv': No such file or directory
+Execution halted
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_19.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_19.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_19.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 20
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.20_var_region.txt
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error in file(file, "rt") : cannot open the connection
+Calls: read.csv -> read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file 'type2diabet_addPheno.csv': No such file or directory
+Execution halted
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_20.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_20.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_20.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 21
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.21_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_21.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_21.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_21.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 22
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium.prune.22_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_22.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/raw_22.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/reh_22.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Checking the headers and starting positions of 22 files
+Writing to /tmp/bcftools.zkH3tw
+Merging 0 temporary files
+Cleaning
+Done
+
+
+ -------------------------------------------------------------------------------- 
+          DosageConvertor - Converting Dosage from Minimac3/4 to other Formats     
+ --------------------------------------------------------------------------------
+ (c) 2015 - Sayantan Das 
+
+ Version: 1.0.0;
+ Built: Mon Apr 17 04:52:11 UTC 2023 by root
+
+ Command Line Options: 
+        Input Dosage : --vcfDose [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Ukb/sort_complex_vars.vcf.gz],
+                       --info [], --tag [DS]
+   Output Parameters : --prefix [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/sort_complex_vars_beta],
+                       --format [1], --type [plink], --nobgzip
+    Other Parameters : --buffer [10000], --allDiploid, --trimNames,
+                       --trimLength [100], --SexFile [], --idDelimiter [],
+                       --help, --params
+           PhoneHome : --noPhoneHome, --phoneHomeThinning [50]
+
+
+ URL = http://genome.sph.umich.edu/wiki/DosageConvertor
+ GIT = https://github.com/Santy-8128/DosageConvertor
+ WARNING !!! Parameter --buffer will be ignored when be used with --type "plink" !
+
+ ------------------------------------------------------------------------------
+                             INPUT VCF DOSAGE FILE                             
+ ------------------------------------------------------------------------------
+
+ Detecting Dosage File Type ... 
+
+ Format = VCF (Variant Call Format) 
+
+ Calculating number of Samples in VCF File ...
+
+ ------------------------------------------------------------------------------
+                                    ERROR !!!                                  
+ ------------------------------------------------------------------------------
+
+ Reference VCF File contains chromosome : 
+ VCF File can only contain chromosomes 1-22, X ! 
+ Please verify the input file(s) ! 
+ Type --help for usage details 
+ Contact author [sayantan@umich.edu] if you still need help ... 
+ Program Aborting ... 
+
+ Program Exiting ... 
+
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium_Result.log.
+Options in effect:
+  --dosage /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/sort_complex_vars_beta.plink.dosage.gz format=1 noheader
+  --fam /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/sort_complex_vars_beta.plink.fam
+  --out /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium_Result
+  --score /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium_input.txt 1 2 3 header sum include-cnt double-dosage
+
+15868 MB RAM detected; reserving 7934 MB for main workspace.
+Error: Failed to open
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/sort_complex_vars_beta.plink.fam.
+sed: can't read /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02/Imputed_Ukb_T2D_ratio2_premium_Result.profile: No such file or directory
+[1] "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.Only_Obesity.suggest.min0.02"
+[1] "Start_make_add_pheno"
+Error in read.table(paste0(DIR, "/", Type, "_Result.txt"), header = T) : 
+  no lines available in input
+Execution halted
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error in file(file, "rt") : cannot open the connection
+Calls: read.csv -> read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file 'type2diabet_addPheno.csv': No such file or directory
+Execution halted
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error in file(file, "rt") : cannot open the connection
+Calls: read.csv -> read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file 'type2diabet_addPheno.csv': No such file or directory
+Execution halted
+/mnt/nas/gylee/0.GWAS/4.PRS/test
+
+
+
+CHR is 1
+
+
+
+
+
+
+
+CHR is 2
+
+
+
+
+
+
+
+CHR is 3
+
+
+
+
+
+
+
+CHR is 4
+
+
+
+
+
+
+
+CHR is 5
+
+
+
+
+
+
+
+CHR is 6
+
+
+
+
+
+
+
+CHR is 7
+
+
+
+
+
+
+
+CHR is 8
+
+
+
+
+
+
+
+CHR is 9
+
+
+
+
+
+
+
+CHR is 10
+
+
+
+
+
+
+
+CHR is 11
+
+
+
+
+
+
+
+CHR is 12
+
+
+
+
+
+
+
+CHR is 13
+
+
+
+
+/mnt/nas/gylee/0.GWAS/4.PRS/test
+
+
+
+CHR is 1
+
+
+
+
+
+
+
+CHR is 14
+
+
+
+
+
+
+
+CHR is 15
+
+
+
+
+
+
+
+CHR is 16
+
+
+
+
+
+
+
+CHR is 2
+
+
+
+
+
+
+
+CHR is 17
+
+
+
+
+
+
+
+CHR is 18
+
+
+
+
+
+
+
+CHR is 19
+
+
+
+
+
+
+
+CHR is 3
+
+
+
+
+
+
+
+CHR is 20
+
+
+
+
+
+
+
+CHR is 21
+
+
+
+
+
+
+
+CHR is 22
+
+
+
+
+Checking the headers and starting positions of 22 files
+
+
+
+CHR is 4
+
+
+
+
+Writing to /tmp/bcftools.YYc4IY
+
+
+
+CHR is 5
+
+
+
+
+Merging 2 temporary files
+
+
+
+CHR is 6
+
+
+
+
+
+
+
+CHR is 7
+
+
+
+
+Cleaning
+Done
+
+
+ -------------------------------------------------------------------------------- 
+          DosageConvertor - Converting Dosage from Minimac3/4 to other Formats     
+ --------------------------------------------------------------------------------
+ (c) 2015 - Sayantan Das 
+
+ Version: 1.0.0;
+ Built: Mon Apr 17 04:52:11 UTC 2023 by root
+
+ Command Line Options: 
+        Input Dosage : --vcfDose [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.02_Only_Obesity/Ukb/sort_complex_vars.vcf.gz],
+                       --info [], --tag [DS]
+   Output Parameters : --prefix [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.02_Only_Obesity/sort_complex_vars_beta],
+                       --format [1], --type [plink], --nobgzip
+    Other Parameters : --buffer [10000], --allDiploid, --trimNames,
+                       --trimLength [100], --SexFile [], --idDelimiter [],
+                       --help, --params
+           PhoneHome : --noPhoneHome, --phoneHomeThinning [50]
+
+
+ URL = http://genome.sph.umich.edu/wiki/DosageConvertor
+ GIT = https://github.com/Santy-8128/DosageConvertor
+ WARNING !!! Parameter --buffer will be ignored when be used with --type "plink" !
+
+ ------------------------------------------------------------------------------
+                             INPUT VCF DOSAGE FILE                             
+ ------------------------------------------------------------------------------
+
+ Detecting Dosage File Type ... 
+
+ Format = VCF (Variant Call Format) 
+
+ Calculating number of Samples in VCF File ...
+ Calculating number Markers in VCF File ...
+
+
+
+CHR is 8
+
+
+
+
+
+
+ Number of Samples read from VCF Dosage File              : 52634
+ Number of Markers read from VCF Dosage File              : 1015
+
+
+
+ Number of Imputed Variants                               : 957
+ Number of Genotyped and Imputed Variants                 : 58
+ Number of Genotyped Only Variants                        : 0
+
+ Loading Dosage Data from VCF File       : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.02_Only_Obesity/Ukb/sort_complex_vars.vcf.gz
+
+ Reading and Importing Data from VCF File ...
+
+    Writing to PLINK output file ...
+
+
+
+CHR is 9
+
+
+
+
+
+
+
+CHR is 10
+
+
+
+
+
+
+
+CHR is 11
+
+
+
+
+
+
+
+CHR is 12
+
+
+
+
+    Finished Writing ALL markers to PLINK output file ...
+
+
+ Number of Samples read from VCF Dosage File              : 52634
+ Number of Markers read from VCF Dosage File              : 1015
+
+ ------------------------------------------------------------------------------
+                                PLINK OUTPUT FILE                            
+ ------------------------------------------------------------------------------
+
+
+ Dosage Information written to PLINK Dosage File  : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.02_Only_Obesity/sort_complex_vars_beta.plink.dosage.gz 
+ Map Information written to PLINK Map File        : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.02_Only_Obesity/sort_complex_vars_beta.plink.map 
+ Family Information written to PLINK Fam File     : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.02_Only_Obesity/sort_complex_vars_beta.plink.fam 
+
+ ------------------------------------------------------------------------------
+                                END OF PROGRAM                                 
+ ------------------------------------------------------------------------------
+
+ Program Successfully Implemented... 
+ 
+ Total Run completed in 0 hours, 1 mins, 20 seconds.
+
+ Thank You for using DosageConvertor !!! 
+
+
+
+
+CHR is 13
+
+
+
+
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.02_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_Result.log.
+Options in effect:
+  --dosage /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.02_Only_Obesity/sort_complex_vars_beta.plink.dosage.gz format=1 noheader
+  --fam /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.02_Only_Obesity/sort_complex_vars_beta.plink.fam
+  --out /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.02_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_Result
+  --score /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.02_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_input.txt 1 2 3 header sum include-cnt double-dosage
+
+15868 MB RAM detected; reserving 7934 MB for main workspace.
+52634 people (0 males, 0 females, 52634 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.02_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_Result.nosex
+.
+Using 1 thread (no multithreaded calculations invoked).
+52634 people pass filters and QC.
+Note: No phenotypes present.
+--score: 1002 entries loaded from
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.02_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_input.txt.
+--dosage: Reading from
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.02_Only_Obesity/sort_complex_vars_beta.plink.dosage.gz.
+--score: Results written to
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.02_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_Result.profile
+.
+[1] "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.02_Only_Obesity"
+[1] "Start_make_add_pheno"
+[1] "Finish"
+Warning message:
+In write.csv(data, paste0(DIR, "/", TRAIT1, "_addPheno.csv"), quote = F,  :
+  attempt to set 'col.names' ignored
+[1] "Finish"
+Warning message:
+In write.csv(data, paste0(DIR, "/", TRAIT2, "_addPheno.csv"), quote = F,  :
+  attempt to set 'col.names' ignored
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+              FID             IID SCORESUM   PHENO
+1 4642463_4642463 4642463_4642463  24.7229 Control
+2 5930440_5930440 5930440_5930440  24.3291 Control
+3 4261816_4261816 4261816_4261816  26.4613 Control
+4 5614427_5614427 5614427_5614427  25.7857 Control
+5 2431041_2431041 2431041_2431041  25.0311 Control
+6 5937366_5937366 5937366_5937366  24.9957 Control
+null device 
+          1 
+null device 
+          1 
+
+
+
+CHR is 14
+
+
+
+
+
+
+
+CHR is 15
+
+
+
+
+
+
+
+CHR is 16
+
+
+
+
+
+
+
+CHR is 17
+
+
+
+
+
+
+
+CHR is 18
+
+
+
+
+
+
+
+CHR is 19
+
+
+
+
+
+
+
+CHR is 20
+
+
+
+
+
+
+
+CHR is 21
+
+
+
+
+
+
+
+CHR is 22
+
+
+
+
+Checking the headers and starting positions of 22 files
+Writing to /tmp/bcftools.5B15JZ
+Merging 2 temporary files
+Cleaning
+Done
+
+
+ -------------------------------------------------------------------------------- 
+          DosageConvertor - Converting Dosage from Minimac3/4 to other Formats     
+ --------------------------------------------------------------------------------
+ (c) 2015 - Sayantan Das 
+
+ Version: 1.0.0;
+ Built: Mon Apr 17 04:52:11 UTC 2023 by root
+
+ URL = http://genome.sph.umich.edu/wiki/DosageConvertor
+ GIT = https://github.com/Santy-8128/DosageConvertor
+
+**************************************************************************************
+A new version, 1.0.4, of DosageConvertor is available (currently running 1.0.0)
+**************************************************************************************
+
+
+ Command Line Options: 
+        Input Dosage : --vcfDose [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.2_Only_Obesity/Ukb/sort_complex_vars.vcf.gz],
+                       --info [], --tag [DS]
+   Output Parameters : --prefix [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.2_Only_Obesity/sort_complex_vars_beta],
+                       --format [1], --type [plink], --nobgzip
+    Other Parameters : --buffer [10000], --allDiploid, --trimNames,
+                       --trimLength [100], --SexFile [], --idDelimiter [],
+                       --help, --params
+           PhoneHome : --noPhoneHome, --phoneHomeThinning [50]
+
+ WARNING !!! Parameter --buffer will be ignored when be used with --type "plink" !
+
+ ------------------------------------------------------------------------------
+                             INPUT VCF DOSAGE FILE                             
+ ------------------------------------------------------------------------------
+
+ Detecting Dosage File Type ... 
+
+ Format = VCF (Variant Call Format) 
+
+ Calculating number of Samples in VCF File ...
+ Calculating number Markers in VCF File ...
+
+
+ Number of Samples read from VCF Dosage File              : 52634
+ Number of Markers read from VCF Dosage File              : 1334
+
+
+
+ Number of Imputed Variants                               : 1250
+ Number of Genotyped and Imputed Variants                 : 84
+ Number of Genotyped Only Variants                        : 0
+
+ Loading Dosage Data from VCF File       : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.2_Only_Obesity/Ukb/sort_complex_vars.vcf.gz
+
+ Reading and Importing Data from VCF File ...
+
+    Writing to PLINK output file ...
+    Finished Writing ALL markers to PLINK output file ...
+
+
+ Number of Samples read from VCF Dosage File              : 52634
+ Number of Markers read from VCF Dosage File              : 1334
+
+ ------------------------------------------------------------------------------
+                                PLINK OUTPUT FILE                            
+ ------------------------------------------------------------------------------
+
+
+ Dosage Information written to PLINK Dosage File  : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.2_Only_Obesity/sort_complex_vars_beta.plink.dosage.gz 
+ Map Information written to PLINK Map File        : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.2_Only_Obesity/sort_complex_vars_beta.plink.map 
+ Family Information written to PLINK Fam File     : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.2_Only_Obesity/sort_complex_vars_beta.plink.fam 
+
+ ------------------------------------------------------------------------------
+                                END OF PROGRAM                                 
+ ------------------------------------------------------------------------------
+
+ Program Successfully Implemented... 
+ 
+ Total Run completed in 0 hours, 1 mins, 43 seconds.
+
+ Thank You for using DosageConvertor !!! 
+
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.2_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_Result.log.
+Options in effect:
+  --dosage /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.2_Only_Obesity/sort_complex_vars_beta.plink.dosage.gz format=1 noheader
+  --fam /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.2_Only_Obesity/sort_complex_vars_beta.plink.fam
+  --out /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.2_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_Result
+  --score /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.2_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_input.txt 1 2 3 header sum include-cnt double-dosage
+
+15868 MB RAM detected; reserving 7934 MB for main workspace.
+52634 people (0 males, 0 females, 52634 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.2_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_Result.nosex
+.
+Using 1 thread (no multithreaded calculations invoked).
+52634 people pass filters and QC.
+Note: No phenotypes present.
+--score: 1319 entries loaded from
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.2_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_input.txt.
+--dosage: Reading from
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.2_Only_Obesity/sort_complex_vars_beta.plink.dosage.gz.
+--score: Results written to
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.2_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_Result.profile
+.
+[1] "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.suggest.min0.2_Only_Obesity"
+[1] "Start_make_add_pheno"
+[1] "Finish"
+Warning message:
+In write.csv(data, paste0(DIR, "/", TRAIT1, "_addPheno.csv"), quote = F,  :
+  attempt to set 'col.names' ignored
+[1] "Finish"
+Warning message:
+In write.csv(data, paste0(DIR, "/", TRAIT2, "_addPheno.csv"), quote = F,  :
+  attempt to set 'col.names' ignored
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+              FID             IID SCORESUM   PHENO
+1 4642463_4642463 4642463_4642463  33.1899 Control
+2 5930440_5930440 5930440_5930440  32.4730 Control
+3 4261816_4261816 4261816_4261816  34.7899 Control
+4 5614427_5614427 5614427_5614427  34.3089 Control
+5 2431041_2431041 2431041_2431041  33.7014 Control
+6 5937366_5937366 5937366_5937366  33.3236 Control
+null device 
+          1 
+null device 
+          1 
+bash: /mnt/nas/gylee/0.GWAS/4.PRS/test/calculate_PRS.FDR.min0.02_Only_Obesity.sh: No such file or directory
+/mnt/nas/gylee/0.GWAS/4.PRS/test
+
+
+
+CHR is 1
+
+
+
+
+
+
+
+CHR is 2
+
+
+
+
+
+
+
+CHR is 3
+
+
+
+
+
+
+
+CHR is 4
+
+
+
+
+
+
+
+CHR is 5
+
+
+
+
+
+
+
+CHR is 6
+
+
+
+
+
+
+
+CHR is 7
+
+
+
+
+
+
+
+CHR is 8
+
+
+
+
+
+
+
+CHR is 9
+
+
+
+
+
+
+
+CHR is 10
+
+
+
+
+
+
+
+CHR is 11
+
+
+
+
+
+
+
+CHR is 12
+
+
+
+
+
+
+
+CHR is 13
+
+
+
+
+
+
+
+CHR is 14
+
+
+
+
+
+
+
+CHR is 15
+
+
+
+
+
+
+
+CHR is 16
+
+
+
+
+
+
+
+CHR is 17
+
+
+
+
+
+
+
+CHR is 18
+
+
+
+
+
+
+
+CHR is 19
+
+
+
+
+
+
+
+CHR is 20
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium.prune.20_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/Ukb/raw_20.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/Ukb/raw_20.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/Ukb/reh_20.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 21
+
+
+
+
+
+
+
+CHR is 22
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium.prune.22_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/Ukb/raw_22.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/Ukb/raw_22.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/Ukb/reh_22.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Checking the headers and starting positions of 22 files
+Writing to /tmp/bcftools.2nr7zq
+Merging 1 temporary files
+Cleaning
+Done
+
+
+ -------------------------------------------------------------------------------- 
+          DosageConvertor - Converting Dosage from Minimac3/4 to other Formats     
+ --------------------------------------------------------------------------------
+ (c) 2015 - Sayantan Das 
+
+ Version: 1.0.0;
+ Built: Mon Apr 17 04:52:11 UTC 2023 by root
+
+ URL = http://genome.sph.umich.edu/wiki/DosageConvertor
+ GIT = https://github.com/Santy-8128/DosageConvertor
+
+**************************************************************************************
+A new version, 1.0.4, of DosageConvertor is available (currently running 1.0.0)
+**************************************************************************************
+
+
+ Command Line Options: 
+        Input Dosage : --vcfDose [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/Ukb/sort_complex_vars.vcf.gz],
+                       --info [], --tag [DS]
+   Output Parameters : --prefix [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/sort_complex_vars_beta],
+                       --format [1], --type [plink], --nobgzip
+    Other Parameters : --buffer [10000], --allDiploid, --trimNames,
+                       --trimLength [100], --SexFile [], --idDelimiter [],
+                       --help, --params
+           PhoneHome : --noPhoneHome, --phoneHomeThinning [50]
+
+ WARNING !!! Parameter --buffer will be ignored when be used with --type "plink" !
+
+ ------------------------------------------------------------------------------
+                             INPUT VCF DOSAGE FILE                             
+ ------------------------------------------------------------------------------
+
+ Detecting Dosage File Type ... 
+
+ Format = VCF (Variant Call Format) 
+
+ Calculating number of Samples in VCF File ...
+ Calculating number Markers in VCF File ...
+
+
+ Number of Samples read from VCF Dosage File              : 52634
+ Number of Markers read from VCF Dosage File              : 123
+
+
+
+ Number of Imputed Variants                               : 118
+ Number of Genotyped and Imputed Variants                 : 5
+ Number of Genotyped Only Variants                        : 0
+
+ Loading Dosage Data from VCF File       : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/Ukb/sort_complex_vars.vcf.gz
+
+ Reading and Importing Data from VCF File ...
+
+    Writing to PLINK output file ...
+    Finished Writing ALL markers to PLINK output file ...
+
+
+ Number of Samples read from VCF Dosage File              : 52634
+ Number of Markers read from VCF Dosage File              : 123
+
+ ------------------------------------------------------------------------------
+                                PLINK OUTPUT FILE                            
+ ------------------------------------------------------------------------------
+
+
+ Dosage Information written to PLINK Dosage File  : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/sort_complex_vars_beta.plink.dosage.gz 
+ Map Information written to PLINK Map File        : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/sort_complex_vars_beta.plink.map 
+ Family Information written to PLINK Fam File     : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/sort_complex_vars_beta.plink.fam 
+
+ ------------------------------------------------------------------------------
+                                END OF PROGRAM                                 
+ ------------------------------------------------------------------------------
+
+ Program Successfully Implemented... 
+ 
+ Total Run completed in 0 hours, 0 mins, 10 seconds.
+
+ Thank You for using DosageConvertor !!! 
+
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_Result.log.
+Options in effect:
+  --dosage /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/sort_complex_vars_beta.plink.dosage.gz format=1 noheader
+  --fam /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/sort_complex_vars_beta.plink.fam
+  --out /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_Result
+  --score /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_input.txt 1 2 3 header sum include-cnt double-dosage
+
+15868 MB RAM detected; reserving 7934 MB for main workspace.
+52634 people (0 males, 0 females, 52634 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_Result.nosex
+.
+Using 1 thread (no multithreaded calculations invoked).
+52634 people pass filters and QC.
+Note: No phenotypes present.
+--score: 120 entries loaded from
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_input.txt.
+--dosage: Reading from
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/sort_complex_vars_beta.plink.dosage.gz.
+--score: Results written to
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_Result.profile
+.
+[1] "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.2_Only_Obesity"
+[1] "Start_make_add_pheno"
+[1] "Finish"
+Warning message:
+In write.csv(data, paste0(DIR, "/", TRAIT1, "_addPheno.csv"), quote = F,  :
+  attempt to set 'col.names' ignored
+[1] "Finish"
+Warning message:
+In write.csv(data, paste0(DIR, "/", TRAIT2, "_addPheno.csv"), quote = F,  :
+  attempt to set 'col.names' ignored
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+              FID             IID SCORESUM   PHENO
+1 4642463_4642463 4642463_4642463  4.00065 Control
+2 5930440_5930440 5930440_5930440  3.61200 Control
+3 4261816_4261816 4261816_4261816  3.64983 Control
+4 5614427_5614427 5614427_5614427  3.87796 Control
+5 2431041_2431041 2431041_2431041  3.98842 Control
+6 5937366_5937366 5937366_5937366  3.37856 Control
+null device 
+          1 
+null device 
+          1 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+   0    1 
+9124 1401 
+        OR 2.5% 97.5%            p
+pheno 1.63 1.51  1.75 2.108378e-38
+       OR 2.5% 97.5%            p
+pheno 1.8 1.65  1.96 9.614225e-41
+        OR 2.5% 97.5%            p
+pheno 1.94 1.74  2.16 5.041162e-34
+
+   0    1 
+4850  414 
+/mnt/nas/gylee/0.GWAS/4.PRS/test
+
+
+
+CHR is 1
+
+
+
+
+
+
+
+CHR is 2
+
+
+
+
+
+
+
+CHR is 3
+
+
+
+
+
+
+
+CHR is 4
+
+
+
+
+
+
+
+CHR is 5
+
+
+
+
+
+
+
+CHR is 6
+
+
+
+
+
+
+
+CHR is 7
+
+
+
+
+
+
+
+CHR is 8
+
+
+
+
+
+
+
+CHR is 9
+
+
+
+
+
+
+
+CHR is 10
+
+
+
+
+
+
+
+CHR is 11
+
+
+
+
+
+
+
+CHR is 12
+
+
+
+
+
+
+
+CHR is 13
+
+
+
+
+
+
+
+CHR is 14
+
+
+
+
+
+
+
+CHR is 15
+
+
+
+
+
+
+
+CHR is 16
+
+
+
+
+
+
+
+CHR is 17
+
+
+
+
+
+
+
+CHR is 18
+
+
+
+
+
+
+
+CHR is 19
+
+
+
+
+
+
+
+CHR is 20
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium.prune.20_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/Ukb/raw_20.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/Ukb/raw_20.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/Ukb/reh_20.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 21
+
+
+
+
+
+
+
+CHR is 22
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium.prune.22_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/Ukb/raw_22.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/Ukb/raw_22.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/Ukb/reh_22.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Checking the headers and starting positions of 22 files
+Writing to /tmp/bcftools.25nhFm
+Merging 1 temporary files
+Cleaning
+Done
+
+
+ -------------------------------------------------------------------------------- 
+          DosageConvertor - Converting Dosage from Minimac3/4 to other Formats     
+ --------------------------------------------------------------------------------
+ (c) 2015 - Sayantan Das 
+
+ Version: 1.0.0;
+ Built: Mon Apr 17 04:52:11 UTC 2023 by root
+
+ Command Line Options: 
+        Input Dosage : --vcfDose [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/Ukb/sort_complex_vars.vcf.gz],
+                       --info [], --tag [DS]
+   Output Parameters : --prefix [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/sort_complex_vars_beta],
+                       --format [1], --type [plink], --nobgzip
+    Other Parameters : --buffer [10000], --allDiploid, --trimNames,
+                       --trimLength [100], --SexFile [], --idDelimiter [],
+                       --help, --params
+           PhoneHome : --noPhoneHome, --phoneHomeThinning [50]
+
+
+ URL = http://genome.sph.umich.edu/wiki/DosageConvertor
+ GIT = https://github.com/Santy-8128/DosageConvertor
+ WARNING !!! Parameter --buffer will be ignored when be used with --type "plink" !
+
+ ------------------------------------------------------------------------------
+                             INPUT VCF DOSAGE FILE                             
+ ------------------------------------------------------------------------------
+
+ Detecting Dosage File Type ... 
+
+ Format = VCF (Variant Call Format) 
+
+ Calculating number of Samples in VCF File ...
+ Calculating number Markers in VCF File ...
+
+
+ Number of Samples read from VCF Dosage File              : 52634
+ Number of Markers read from VCF Dosage File              : 102
+
+
+
+ Number of Imputed Variants                               : 98
+ Number of Genotyped and Imputed Variants                 : 4
+ Number of Genotyped Only Variants                        : 0
+
+ Loading Dosage Data from VCF File       : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/Ukb/sort_complex_vars.vcf.gz
+
+ Reading and Importing Data from VCF File ...
+
+    Writing to PLINK output file ...
+    Finished Writing ALL markers to PLINK output file ...
+
+
+ Number of Samples read from VCF Dosage File              : 52634
+ Number of Markers read from VCF Dosage File              : 102
+
+ ------------------------------------------------------------------------------
+                                PLINK OUTPUT FILE                            
+ ------------------------------------------------------------------------------
+
+
+ Dosage Information written to PLINK Dosage File  : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/sort_complex_vars_beta.plink.dosage.gz 
+ Map Information written to PLINK Map File        : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/sort_complex_vars_beta.plink.map 
+ Family Information written to PLINK Fam File     : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/sort_complex_vars_beta.plink.fam 
+
+ ------------------------------------------------------------------------------
+                                END OF PROGRAM                                 
+ ------------------------------------------------------------------------------
+
+ Program Successfully Implemented... 
+ 
+ Total Run completed in 0 hours, 0 mins, 8 seconds.
+
+ Thank You for using DosageConvertor !!! 
+
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_Result.log.
+Options in effect:
+  --dosage /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/sort_complex_vars_beta.plink.dosage.gz format=1 noheader
+  --fam /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/sort_complex_vars_beta.plink.fam
+  --out /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_Result
+  --score /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_input.txt 1 2 3 header sum include-cnt double-dosage
+
+15868 MB RAM detected; reserving 7934 MB for main workspace.
+52634 people (0 males, 0 females, 52634 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_Result.nosex
+.
+Using 1 thread (no multithreaded calculations invoked).
+52634 people pass filters and QC.
+Note: No phenotypes present.
+--score: 100 entries loaded from
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_input.txt.
+--dosage: Reading from
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/sort_complex_vars_beta.plink.dosage.gz.
+--score: Results written to
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity/Imputed_Ukb_T2D_ratio2_premium_Result.profile
+.
+[1] "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.FDR.min0.02_Only_Obesity"
+[1] "Start_make_add_pheno"
+[1] "Finish"
+Warning message:
+In write.csv(data, paste0(DIR, "/", TRAIT1, "_addPheno.csv"), quote = F,  :
+  attempt to set 'col.names' ignored
+[1] "Finish"
+Warning message:
+In write.csv(data, paste0(DIR, "/", TRAIT2, "_addPheno.csv"), quote = F,  :
+  attempt to set 'col.names' ignored
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+              FID             IID SCORESUM   PHENO
+1 4642463_4642463 4642463_4642463  3.49853 Control
+2 5930440_5930440 5930440_5930440  3.12280 Control
+3 4261816_4261816 4261816_4261816  3.20488 Control
+4 5614427_5614427 5614427_5614427  3.21001 Control
+5 2431041_2431041 2431041_2431041  3.32893 Control
+6 5937366_5937366 5937366_5937366  2.90528 Control
+null device 
+          1 
+null device 
+          1 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+   0    1 
+9120 1405 
+        OR 2.5% 97.5%            p
+pheno 1.64 1.52  1.76 4.083174e-39
+        OR 2.5% 97.5%            p
+pheno 1.77 1.62  1.93 2.856426e-38
+       OR 2.5% 97.5%            p
+pheno 1.9  1.7  2.11 1.366862e-31
+
+   0    1 
+4855  409 
+/mnt/nas/gylee/0.GWAS/4.PRS/test
+
+
+
+CHR is 1
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium.prune.1_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_1.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_1.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/reh_1.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 2
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium.prune.2_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_2.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_2.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/reh_2.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 3
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium.prune.3_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_3.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_3.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/reh_3.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 4
+
+
+
+
+
+
+
+CHR is 5
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium.prune.5_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_5.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_5.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/reh_5.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 6
+
+
+
+
+
+
+
+CHR is 7
+
+
+
+
+
+
+
+CHR is 8
+
+
+
+
+
+
+
+CHR is 9
+
+
+
+
+
+
+
+CHR is 10
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium.prune.10_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_10.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_10.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/reh_10.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 11
+
+
+
+
+
+
+
+CHR is 12
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium.prune.12_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_12.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_12.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/reh_12.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 13
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium.prune.13_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_13.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_13.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/reh_13.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 14
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium.prune.14_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_14.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_14.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/reh_14.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 15
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium.prune.15_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_15.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_15.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/reh_15.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 16
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium.prune.16_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_16.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_16.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/reh_16.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 17
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium.prune.17_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_17.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_17.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/reh_17.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 18
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium.prune.18_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_18.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_18.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/reh_18.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 19
+
+
+
+
+
+
+
+CHR is 20
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium.prune.20_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_20.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_20.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/reh_20.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 21
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium.prune.21_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_21.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_21.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/reh_21.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 22
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium.prune.22_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_22.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/raw_22.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/reh_22.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Checking the headers and starting positions of 22 files
+Writing to /tmp/bcftools.yj66ow
+Merging 1 temporary files
+Cleaning
+Done
+
+
+ -------------------------------------------------------------------------------- 
+          DosageConvertor - Converting Dosage from Minimac3/4 to other Formats     
+ --------------------------------------------------------------------------------
+ (c) 2015 - Sayantan Das 
+
+ Version: 1.0.0;
+ Built: Mon Apr 17 04:52:11 UTC 2023 by root
+
+ Command Line Options: 
+        Input Dosage : --vcfDose [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/sort_complex_vars.vcf.gz],
+                       --info [], --tag [DS]
+   Output Parameters : --prefix [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/sort_complex_vars_beta],
+                       --format [1], --type [plink], --nobgzip
+    Other Parameters : --buffer [10000], --allDiploid, --trimNames,
+                       --trimLength [100], --SexFile [], --idDelimiter [],
+                       --help, --params
+           PhoneHome : --noPhoneHome, --phoneHomeThinning [50]
+
+
+ URL = http://genome.sph.umich.edu/wiki/DosageConvertor
+ GIT = https://github.com/Santy-8128/DosageConvertor
+ WARNING !!! Parameter --buffer will be ignored when be used with --type "plink" !
+
+ ------------------------------------------------------------------------------
+                             INPUT VCF DOSAGE FILE                             
+ ------------------------------------------------------------------------------
+
+ Detecting Dosage File Type ... 
+
+ Format = VCF (Variant Call Format) 
+
+ Calculating number of Samples in VCF File ...
+ Calculating number Markers in VCF File ...
+
+
+ Number of Samples read from VCF Dosage File              : 52634
+ Number of Markers read from VCF Dosage File              : 9
+
+
+
+ Number of Imputed Variants                               : 2
+ Number of Genotyped and Imputed Variants                 : 7
+ Number of Genotyped Only Variants                        : 0
+
+ Loading Dosage Data from VCF File       : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Ukb/sort_complex_vars.vcf.gz
+
+ Reading and Importing Data from VCF File ...
+
+    Writing to PLINK output file ...
+    Finished Writing ALL markers to PLINK output file ...
+
+
+ Number of Samples read from VCF Dosage File              : 52634
+ Number of Markers read from VCF Dosage File              : 9
+
+ ------------------------------------------------------------------------------
+                                PLINK OUTPUT FILE                            
+ ------------------------------------------------------------------------------
+
+
+ Dosage Information written to PLINK Dosage File  : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/sort_complex_vars_beta.plink.dosage.gz 
+ Map Information written to PLINK Map File        : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/sort_complex_vars_beta.plink.map 
+ Family Information written to PLINK Fam File     : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/sort_complex_vars_beta.plink.fam 
+
+ ------------------------------------------------------------------------------
+                                END OF PROGRAM                                 
+ ------------------------------------------------------------------------------
+
+ Program Successfully Implemented... 
+ 
+ Total Run completed in 0 hours, 0 mins, 1 seconds.
+
+ Thank You for using DosageConvertor !!! 
+
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium_Result.log.
+Options in effect:
+  --dosage /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/sort_complex_vars_beta.plink.dosage.gz format=1 noheader
+  --fam /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/sort_complex_vars_beta.plink.fam
+  --out /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium_Result
+  --score /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium_input.txt 1 2 3 header sum include-cnt double-dosage
+
+15868 MB RAM detected; reserving 7934 MB for main workspace.
+52634 people (0 males, 0 females, 52634 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium_Result.nosex
+.
+Using 1 thread (no multithreaded calculations invoked).
+52634 people pass filters and QC.
+Note: No phenotypes present.
+--score: 9 entries loaded from
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium_input.txt.
+--dosage: Reading from
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/sort_complex_vars_beta.plink.dosage.gz.
+--score: Results written to
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen/Imputed_Ukb_T2D_ratio2_premium_Result.profile
+.
+[1] "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_premium.macrogen"
+[1] "Start_make_add_pheno"
+[1] "Finish"
+Warning message:
+In write.csv(data, paste0(DIR, "/", TRAIT1, "_addPheno.csv"), quote = F,  :
+  attempt to set 'col.names' ignored
+[1] "Finish"
+Warning message:
+In write.csv(data, paste0(DIR, "/", TRAIT2, "_addPheno.csv"), quote = F,  :
+  attempt to set 'col.names' ignored
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+              FID             IID SCORESUM   PHENO
+1 4642463_4642463 4642463_4642463 0.312340 Control
+2 5930440_5930440 5930440_5930440 0.401389 Control
+3 4261816_4261816 4261816_4261816 0.362936 Control
+4 5614427_5614427 5614427_5614427 0.469049 Control
+5 2431041_2431041 2431041_2431041 0.360665 Control
+6 5937366_5937366 5937366_5937366 0.471801 Control
+null device 
+          1 
+null device 
+          1 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+
+   0    1 
+9062 1463 
+        OR 2.5% 97.5%            p
+pheno 1.16 1.07  1.25 0.0001470564
+       OR 2.5% 97.5%            p
+pheno 1.2  1.1  1.32 6.792992e-05
+        OR 2.5% 97.5%           p
+pheno 1.17 1.04  1.32 0.008187093
+
+   0    1 
+4629  635 
+Read 12731 items
+Read 9551 items
+Read 8086 items
+[1] "AUC : 0.523"
+[1] "Recall : 0.542"
+[1] "ACC : 0.508"
+[1] "PPV : 0.114"
+[1] "NPV : 0.903"
+[1] "Specificity : 0.504"
+[1] "F1 score : 0.189"
+[1] "AUC : 0.518"
+[1] "Recall : 0.303"
+[1] "ACC : 0.689"
+[1] "PPV : 0.113"
+[1] "NPV : 0.903"
+[1] "Specificity : 0.733"
+[1] "F1 score : 0.165"
+[1] "AUC : 0.512"
+[1] "Recall : 0.111"
+[1] "ACC : 0.794"
+[1] "PPV : 0.079"
+[1] "NPV : 0.903"
+[1] "Specificity : 0.866"
+[1] "F1 score : 0.093"
+/mnt/nas/gylee/0.GWAS/4.PRS/test
+cp: cannot stat ‘/mnt/nas/gylee/0.GWAS/2.plink_result/Imputed_Ukb_T2D_ratio2_macrogen/Imputed_Ukb_T2D_ratio2_macrogen.macrogen.prune_marker.txt’: No such file or directory
+awk: fatal: cannot open file `/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune_marker.txt' for reading (No such file or directory)
+awk: fatal: cannot open file `/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune_marker.txt' for reading (No such file or directory)
+
+
+
+CHR is 1
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.1_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_1.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_1.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_1.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 2
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.2_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_2.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_2.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_2.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 3
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.3_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_3.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_3.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_3.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 4
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.4_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_4.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_4.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_4.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 5
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.5_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_5.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_5.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_5.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 6
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.6_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_6.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_6.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_6.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 7
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.7_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_7.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_7.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_7.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 8
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.8_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_8.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_8.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_8.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 9
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.9_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_9.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_9.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_9.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 10
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.10_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_10.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_10.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_10.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 11
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.11_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_11.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_11.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_11.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 12
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.12_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_12.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_12.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_12.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 13
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.13_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_13.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_13.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_13.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 14
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.14_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_14.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_14.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_14.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 15
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.15_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_15.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_15.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_15.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 16
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.16_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_16.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_16.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_16.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 17
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.17_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_17.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_17.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_17.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 18
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.18_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_18.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_18.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_18.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 19
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.19_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_19.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_19.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_19.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 20
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.20_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_20.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_20.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_20.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 21
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.21_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_21.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_21.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_21.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 22
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.22_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_22.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_22.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_22.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Checking the headers and starting positions of 22 files
+Writing to /tmp/bcftools.n0RnFZ
+Merging 0 temporary files
+Cleaning
+Done
+
+
+ -------------------------------------------------------------------------------- 
+          DosageConvertor - Converting Dosage from Minimac3/4 to other Formats     
+ --------------------------------------------------------------------------------
+ (c) 2015 - Sayantan Das 
+
+ Version: 1.0.0;
+ Built: Mon Apr 17 04:52:11 UTC 2023 by root
+
+ Command Line Options: 
+        Input Dosage : --vcfDose [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/sort_complex_vars.vcf.gz],
+                       --info [], --tag [DS]
+   Output Parameters : --prefix [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/sort_complex_vars_beta],
+                       --format [1], --type [plink], --nobgzip
+    Other Parameters : --buffer [10000], --allDiploid, --trimNames,
+                       --trimLength [100], --SexFile [], --idDelimiter [],
+                       --help, --params
+           PhoneHome : --noPhoneHome, --phoneHomeThinning [50]
+
+
+ URL = http://genome.sph.umich.edu/wiki/DosageConvertor
+ GIT = https://github.com/Santy-8128/DosageConvertor
+ WARNING !!! Parameter --buffer will be ignored when be used with --type "plink" !
+
+ ------------------------------------------------------------------------------
+                             INPUT VCF DOSAGE FILE                             
+ ------------------------------------------------------------------------------
+
+ Detecting Dosage File Type ... 
+
+ Format = VCF (Variant Call Format) 
+
+ Calculating number of Samples in VCF File ...
+
+ ------------------------------------------------------------------------------
+                                    ERROR !!!                                  
+ ------------------------------------------------------------------------------
+
+ Reference VCF File contains chromosome : 
+ VCF File can only contain chromosomes 1-22, X ! 
+ Please verify the input file(s) ! 
+ Type --help for usage details 
+ Contact author [sayantan@umich.edu] if you still need help ... 
+ Program Aborting ... 
+
+ Program Exiting ... 
+
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen_Result.log.
+Options in effect:
+  --dosage /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/sort_complex_vars_beta.plink.dosage.gz format=1 noheader
+  --fam /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/sort_complex_vars_beta.plink.fam
+  --out /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen_Result
+  --score /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen_input.txt 1 2 3 header sum include-cnt double-dosage
+
+64239 MB RAM detected; reserving 32119 MB for main workspace.
+Error: Failed to open
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/sort_complex_vars_beta.plink.fam.
+sed: can't read /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen_Result.profile: No such file or directory
+[1] "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen"
+[1] "Start_make_add_pheno"
+Error in read.table(paste0(DIR, "/", Type, "_Result.txt"), header = T) : 
+  no lines available in input
+Execution halted
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error in file(file, "rt") : cannot open the connection
+Calls: read.csv -> read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file 'type2diabet_addPheno.csv': No such file or directory
+Execution halted
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Error in file(file, "rt") : cannot open the connection
+Calls: read.csv -> read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file 'type2diabet_addPheno.csv': No such file or directory
+Execution halted
+/mnt/nas/gylee/0.GWAS/4.PRS/test
+cp: cannot stat ‘/mnt/nas/gylee/0.GWAS/2.plink_result/Imputed_Ukb_T2D_ratio2_macrogen/Imputed_Ukb_T2D_ratio2_macrogen.macrogen.prune_marker.txt’: No such file or directory
+awk: fatal: cannot open file `/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune_marker.txt' for reading (No such file or directory)
+awk: fatal: cannot open file `/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune_marker.txt' for reading (No such file or directory)
+
+
+
+CHR is 1
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.1_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_1.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_1.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_1.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 2
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.2_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_2.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_2.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_2.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 3
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.3_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_3.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_3.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_3.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 4
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.4_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_4.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_4.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_4.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 5
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.5_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_5.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_5.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_5.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 6
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.6_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_6.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_6.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_6.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 7
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.7_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_7.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_7.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_7.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 8
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.8_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_8.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_8.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_8.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 9
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.9_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_9.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_9.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_9.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 10
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.10_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_10.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_10.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_10.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 11
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.11_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_11.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_11.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_11.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 12
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.12_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_12.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_12.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_12.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 13
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.13_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_13.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_13.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_13.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 14
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.14_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_14.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_14.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_14.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 15
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.15_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_15.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_15.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_15.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 16
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.16_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_16.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_16.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_16.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 17
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.17_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_17.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_17.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_17.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 18
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.18_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_18.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_18.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_18.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 19
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.19_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_19.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_19.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_19.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 20
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.20_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_20.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_20.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_20.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 21
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.21_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_21.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_21.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_21.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 22
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.22_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_22.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_22.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_22.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+/mnt/nas/gylee/0.GWAS/4.PRS/test
+Checking the headers and starting positions of 22 files
+
+
+
+CHR is 1
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.1_var_region.txt
+Writing to /tmp/bcftools.wu5KV9
+Merging 0 temporary files
+Cleaning
+Done
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_1.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_1.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_1.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+ -------------------------------------------------------------------------------- 
+          DosageConvertor - Converting Dosage from Minimac3/4 to other Formats     
+ --------------------------------------------------------------------------------
+ (c) 2015 - Sayantan Das 
+
+ Version: 1.0.0;
+ Built: Mon Apr 17 04:52:11 UTC 2023 by root
+
+ Command Line Options: 
+        Input Dosage : --vcfDose [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/sort_complex_vars.vcf.gz],
+                       --info [], --tag [DS]
+   Output Parameters : --prefix [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/sort_complex_vars_beta],
+                       --format [1], --type [plink], --nobgzip
+    Other Parameters : --buffer [10000], --allDiploid, --trimNames,
+                       --trimLength [100], --SexFile [], --idDelimiter [],
+                       --help, --params
+           PhoneHome : --noPhoneHome, --phoneHomeThinning [50]
+
+
+ URL = http://genome.sph.umich.edu/wiki/DosageConvertor
+ GIT = https://github.com/Santy-8128/DosageConvertor
+ WARNING !!! Parameter --buffer will be ignored when be used with --type "plink" !
+
+ ------------------------------------------------------------------------------
+                             INPUT VCF DOSAGE FILE                             
+ ------------------------------------------------------------------------------
+
+ Detecting Dosage File Type ... 
+
+ Format = VCF (Variant Call Format) 
+
+ Calculating number of Samples in VCF File ...
+
+ ------------------------------------------------------------------------------
+                                    ERROR !!!                                  
+ ------------------------------------------------------------------------------
+
+ Reference VCF File contains chromosome : 
+ VCF File can only contain chromosomes 1-22, X ! 
+ Please verify the input file(s) ! 
+ Type --help for usage details 
+ Contact author [sayantan@umich.edu] if you still need help ... 
+ Program Aborting ... 
+
+ Program Exiting ... 
+
+
+
+
+CHR is 2
+
+
+
+
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen_Result.log.
+Options in effect:
+  --dosage /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/sort_complex_vars_beta.plink.dosage.gz format=1 noheader
+  --fam /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/sort_complex_vars_beta.plink.fam
+  --out /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen_Result
+  --score /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen_input.txt 1 2 3 header sum include-cnt double-dosage
+
+64239 MB RAM detected; reserving 32119 MB for main workspace.
+Error: Failed to open
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/sort_complex_vars_beta.plink.fam.
+sed: can't read /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen_Result.profile: No such file or directory
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.2_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_2.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_2.Ukb.vars.vcf.gz
+[1] "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen"
+[1] "Start_make_add_pheno"
+Error in read.table(paste0(DIR, "/", Type, "_Result.txt"), header = T) : 
+  no lines available in input
+Execution halted
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_2.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error in file(file, "rt") : cannot open the connection
+Calls: read.csv -> read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file 'type2diabet_addPheno.csv': No such file or directory
+Execution halted
+
+
+
+CHR is 3
+
+
+
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.3_var_region.txt
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Error in file(file, "rt") : cannot open the connection
+Calls: read.csv -> read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file 'type2diabet_addPheno.csv': No such file or directory
+Execution halted
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_3.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_3.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_3.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 4
+
+
+
+
+
+
+
+CHR is 5
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.5_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_5.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_5.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_5.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 6
+
+
+
+
+
+
+
+CHR is 7
+
+
+
+
+
+
+
+CHR is 8
+
+
+
+
+
+
+
+CHR is 9
+
+
+
+
+
+
+
+CHR is 10
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.10_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_10.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_10.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_10.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 11
+
+
+
+
+
+
+
+CHR is 12
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.12_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_12.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_12.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_12.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 13
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.13_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_13.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_13.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_13.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 14
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.14_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_14.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_14.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_14.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 15
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.15_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_15.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_15.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_15.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 16
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.16_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_16.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_16.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_16.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 17
+
+
+
+
+
+
+
+CHR is 18
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.18_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_18.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_18.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_18.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 19
+
+
+
+
+
+
+
+CHR is 20
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.20_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_20.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_20.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_20.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 21
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.21_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_21.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_21.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_21.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+
+
+
+CHR is 22
+
+
+
+
+Failed to read the regions: /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen.prune.22_var_region.txt
+[E::hts_open_format] Failed to open file "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_22.Ukb.vars.vcf.gz" : No such file or directory
+Failed to read from /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/raw_22.Ukb.vars.vcf.gz
+index: "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/reh_22.Ukb.vars.vcf.gz" is in a format that cannot be usefully indexed
+Checking the headers and starting positions of 22 files
+Writing to /tmp/bcftools.1qeHgL
+Merging 1 temporary files
+Cleaning
+Done
+
+
+ -------------------------------------------------------------------------------- 
+          DosageConvertor - Converting Dosage from Minimac3/4 to other Formats     
+ --------------------------------------------------------------------------------
+ (c) 2015 - Sayantan Das 
+
+ Version: 1.0.0;
+ Built: Mon Apr 17 04:52:11 UTC 2023 by root
+
+ URL = http://genome.sph.umich.edu/wiki/DosageConvertor
+ GIT = https://github.com/Santy-8128/DosageConvertor
+
+**************************************************************************************
+A new version, 1.0.4, of DosageConvertor is available (currently running 1.0.0)
+**************************************************************************************
+
+
+ Command Line Options: 
+        Input Dosage : --vcfDose [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/sort_complex_vars.vcf.gz],
+                       --info [], --tag [DS]
+   Output Parameters : --prefix [/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/sort_complex_vars_beta],
+                       --format [1], --type [plink], --nobgzip
+    Other Parameters : --buffer [10000], --allDiploid, --trimNames,
+                       --trimLength [100], --SexFile [], --idDelimiter [],
+                       --help, --params
+           PhoneHome : --noPhoneHome, --phoneHomeThinning [50]
+
+ WARNING !!! Parameter --buffer will be ignored when be used with --type "plink" !
+
+ ------------------------------------------------------------------------------
+                             INPUT VCF DOSAGE FILE                             
+ ------------------------------------------------------------------------------
+
+ Detecting Dosage File Type ... 
+
+ Format = VCF (Variant Call Format) 
+
+ Calculating number of Samples in VCF File ...
+ Calculating number Markers in VCF File ...
+
+
+ Number of Samples read from VCF Dosage File              : 52634
+ Number of Markers read from VCF Dosage File              : 10
+
+
+
+ Number of Imputed Variants                               : 3
+ Number of Genotyped and Imputed Variants                 : 7
+ Number of Genotyped Only Variants                        : 0
+
+ Loading Dosage Data from VCF File       : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Ukb/sort_complex_vars.vcf.gz
+
+ Reading and Importing Data from VCF File ...
+
+    Writing to PLINK output file ...
+    Finished Writing ALL markers to PLINK output file ...
+
+
+ Number of Samples read from VCF Dosage File              : 52634
+ Number of Markers read from VCF Dosage File              : 10
+
+ ------------------------------------------------------------------------------
+                                PLINK OUTPUT FILE                            
+ ------------------------------------------------------------------------------
+
+
+ Dosage Information written to PLINK Dosage File  : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/sort_complex_vars_beta.plink.dosage.gz 
+ Map Information written to PLINK Map File        : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/sort_complex_vars_beta.plink.map 
+ Family Information written to PLINK Fam File     : /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/sort_complex_vars_beta.plink.fam 
+
+ ------------------------------------------------------------------------------
+                                END OF PROGRAM                                 
+ ------------------------------------------------------------------------------
+
+ Program Successfully Implemented... 
+ 
+ Total Run completed in 0 hours, 0 mins, 1 seconds.
+
+ Thank You for using DosageConvertor !!! 
+
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen_Result.log.
+Options in effect:
+  --dosage /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/sort_complex_vars_beta.plink.dosage.gz format=1 noheader
+  --fam /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/sort_complex_vars_beta.plink.fam
+  --out /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen_Result
+  --score /mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen_input.txt 1 2 3 header sum include-cnt double-dosage
+
+64239 MB RAM detected; reserving 32119 MB for main workspace.
+52634 people (0 males, 0 females, 52634 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen_Result.nosex
+.
+Using 1 thread (no multithreaded calculations invoked).
+52634 people pass filters and QC.
+Note: No phenotypes present.
+--score: 10 entries loaded from
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen_input.txt.
+--dosage: Reading from
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/sort_complex_vars_beta.plink.dosage.gz.
+--score: Results written to
+/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen/Imputed_Ukb_T2D_ratio2_macrogen_Result.profile
+.
+[1] "/mnt/nas/gylee/0.GWAS/4.PRS/test/Imputed_Ukb_T2D_ratio2_macrogen.macrogen"
+[1] "Start_make_add_pheno"
+[1] "Finish"
+Warning message:
+In write.csv(data, paste0(DIR, "/", TRAIT1, "_addPheno.csv"), quote = F,  :
+  attempt to set 'col.names' ignored
+[1] "Finish"
+Warning message:
+In write.csv(data, paste0(DIR, "/", TRAIT2, "_addPheno.csv"), quote = F,  :
+  attempt to set 'col.names' ignored
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+              FID             IID SCORESUM   PHENO
+1 4642463_4642463 4642463_4642463 0.376819 Control
+2 5930440_5930440 5930440_5930440 0.443093 Control
+3 4261816_4261816 4261816_4261816 0.381121 Control
+4 5614427_5614427 5614427_5614427 0.521086 Control
+5 2431041_2431041 2431041_2431041 0.421945 Control
+6 5937366_5937366 5937366_5937366 0.487965 Control
+null device 
+          1 
+null device 
+          1 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+
+   0    1 
+9092 1434 
+      OR 2.5% 97.5%            p
+Top 1.18 1.09  1.27 2.214936e-05
+      OR 2.5% 97.5%            p
+Top 1.24 1.13  1.36 3.862286e-06
+      OR 2.5% 97.5%            p
+Top 1.23 1.09  1.38 0.0006281536
+
+   0    1 
+4612  652 
+Read 12731 items
+Read 9551 items
+Read 8086 items
+[1] "AUC : 0.517"
+[1] "Recall : 0.533"
+[1] "ACC : 0.505"
+[1] "PPV : 0.114"
+[1] "NPV : 0.899"
+[1] "Specificity : 0.501"
+[1] "F1 score : 0.188"
+[1] "AUC : 0.512"
+[1] "Recall : 0.293"
+[1] "ACC : 0.685"
+[1] "PPV : 0.112"
+[1] "NPV : 0.899"
+[1] "Specificity : 0.73"
+[1] "F1 score : 0.162"
+[1] "AUC : 0.502"
+[1] "Recall : 0.135"
+[1] "ACC : 0.788"
+[1] "PPV : 0.098"
+[1] "NPV : 0.899"
+[1] "Specificity : 0.861"
+[1] "F1 score : 0.114"
+bash: /mnt/nas/gylee/0.GWAS/4.PRS/test/calculate_PRS.selfdecode.sh: No such file or directory

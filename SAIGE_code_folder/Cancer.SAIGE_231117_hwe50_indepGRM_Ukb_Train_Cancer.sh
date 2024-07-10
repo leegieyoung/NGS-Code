@@ -1,0 +1,16 @@
+#!/bin/bash
+#bash SAIGE_231117_SI_hwe50_indepGRM_Ukb_Train_Cancer.sh Ukb_Train_C15 32 99999999
+#bash SAIGE_231117_SI_hwe50_indepGRM_Ukb_Train_Cancer.sh Ukb_Train_C16 32 99999999
+#bash SAIGE_231117_SI_hwe50_indepGRM_Ukb_Train_Cancer.sh Ukb_Train_C18_C20 32 99999999
+#bash SAIGE_231117_SI_hwe50_indepGRM_Ukb_Train_Cancer.sh Ukb_Train_C22 32 99999999
+#bash SAIGE_231117_SI_hwe50_indepGRM_Ukb_Train_Cancer.sh Ukb_Train_C25 32 99999999
+#bash SAIGE_231117_SI_hwe50_indepGRM_Ukb_Train_Cancer.sh Ukb_Train_C34 32 99999999
+#bash SAIGE_231117_SI_hwe50_indepGRM_Ukb_Train_Cancer.sh Ukb_Train_C50 32 99999999
+#bash SAIGE_231117_SI_hwe50_indepGRM_Ukb_Train_Cancer.sh Ukb_Train_C53 32 99999999
+#bash SAIGE_231117_SI_hwe50_indepGRM_Ukb_Train_Cancer.sh Ukb_Train_C56 32 99999999
+bash SAIGE_231117_SI_hwe50_indepGRM_Ukb_Train_Cancer.sh Ukb_Train_C61 32 99999999
+#bash SAIGE_231117_SI_hwe50_indepGRM_Ukb_Train_Cancer.sh Ukb_Train_C62 32 99999999
+#bash SAIGE_231117_SI_hwe50_indepGRM_Ukb_Train_Cancer.sh Ukb_Train_C64_C65 32 99999999
+#bash SAIGE_231117_SI_hwe50_indepGRM_Ukb_Train_Cancer.sh Ukb_Train_C67 32 99999999
+#bash SAIGE_231117_SI_hwe50_indepGRM_Ukb_Train_Cancer.sh Ukb_Train_C73 32 99999999
+ 

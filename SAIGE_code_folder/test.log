@@ -1,0 +1,97 @@
+Loading required package: optparse
+R version 3.6.3 (2020-02-29)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 20.04.4 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3
+LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/liblapack.so.3
+
+locale:
+ [1] LC_CTYPE=C.UTF-8       LC_NUMERIC=C           LC_TIME=C.UTF-8       
+ [4] LC_COLLATE=C.UTF-8     LC_MONETARY=C.UTF-8    LC_MESSAGES=C.UTF-8   
+ [7] LC_PAPER=C.UTF-8       LC_NAME=C              LC_ADDRESS=C          
+[10] LC_TELEPHONE=C         LC_MEASUREMENT=C.UTF-8 LC_IDENTIFICATION=C   
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] optparse_1.7.3 SAIGE_1.1.9   
+
+loaded via a namespace (and not attached):
+[1] compiler_3.6.3     Matrix_1.5-4       Rcpp_1.0.7         getopt_1.20.3     
+[5] grid_3.6.3         data.table_1.12.8  RcppParallel_5.1.7 lattice_0.20-40   
+$plinkFile
+[1] "/mnt/nas/gylee/0.GWAS/2.SAIGE_result/Ukb_obesity/sparseGRM/Cli_LD_pruned_QC_Ukb_obesity"
+
+$bedFile
+[1] ""
+
+$bimFile
+[1] ""
+
+$famFile
+[1] ""
+
+$nThreads
+[1] 31
+
+$memoryChunk
+[1] 2
+
+$outputPrefix
+[1] "/mnt/nas/gylee/0.GWAS/2.SAIGE_result/Ukb_obesity/sparseGRM/sparseGRM"
+
+$numRandomMarkerforSparseKin
+[1] 1000
+
+$relatednessCutoff
+[1] 0.05
+
+$isDiagofKinSetAsOne
+[1] FALSE
+
+$minMAFforGRM
+[1] 0.01
+
+$maxMissingRateforGRM
+[1] 0.15
+
+$help
+[1] FALSE
+
+31  threads are set to be used  
+sparse GRM will be created
+Markers in the Plink file with MAF <  0.01  will be removed before constructing GRM
+Markers in the Plink file with missing rate >  0.15  will be removed before constructing GRM
+write sample IDs for the sparse GRM to  /mnt/nas/gylee/0.GWAS/2.SAIGE_result/Ukb_obesity/sparseGRM/sparseGRM_relatednessCutoff_0.05_1000_randomMarkersUsed.sparseGRM.mtx.sampleIDs.txt 
+isDiagofKinSetAsOne  FALSE 
+nbyte: 122015
+nbyte: 122015
+reserve: 12798851072
+
+M: 104894, N: 488060
+setgeno mark1
+setgeno mark2
+104859 markers with MAF >= 0.01 and missing rate <= 0.15
+time: 810296
+104859  markers have MAF >=  0.01 
+1000  genetic markers are randomly selected to decide which samples are related
+Start detecting related samples for the sparse GRM
+tb-ta
+   user  system elapsed 
+      0       0       0 
+Start creating sparse GRM
+freq: 0.0165205 invStd: 5.54741  SNPIdx: 24387
+stdGenoMultiMarkersMat.n_rows: 1000
+stdGenoMultiMarkersMat.n_cols: 488060
+i,j 0,0
+i,j 0,1
+Ntotal: 488060
+2147483647
+9223372036854775807
+9223372036854775807
+totalCombination: 119101037769
+a 23881
+b 2

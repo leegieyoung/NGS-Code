@@ -1,0 +1,509 @@
+
+                ID X.CHROM       POS    absBETA absEA
+1 10:104906211_T/C      10 104906211 0.00514841     T
+2 10:112621837_T/C      10 112621837 0.05455570     C
+3 10:114758349_C/T      10 114758349 0.26282800     T
+4 10:122915345_G/A      10 122915345 0.04547320     A
+5  10:12307894_C/T      10  12307894 0.10494000     T
+6 10:124167512_C/T      10 124167512 0.04321170     C
+/mnt/nas/gylee/0.GWAS/4.PRS/KoGES
+
+
+ -------------------------------------------------------------------------------- 
+          DosageConvertor - Converting Dosage from Minimac3/4 to other Formats     
+ --------------------------------------------------------------------------------
+ (c) 2015 - Sayantan Das 
+
+ Version: 1.0.0;
+ Built: Mon Apr 17 04:52:11 UTC 2023 by root
+
+ Command Line Options: 
+        Input Dosage : --vcfDose [/mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Vali_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KOR/KoGES.vars.vcf.gz],
+                       --info [], --tag [DS]
+   Output Parameters : --prefix [/mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Vali_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES.vars_beta],
+                       --format [1], --type [plink], --nobgzip
+    Other Parameters : --buffer [10000], --allDiploid, --trimNames,
+                       --trimLength [100], --SexFile [], --idDelimiter [],
+                       --help, --params
+           PhoneHome : --noPhoneHome, --phoneHomeThinning [50]
+
+
+ URL = http://genome.sph.umich.edu/wiki/DosageConvertor
+ GIT = https://github.com/Santy-8128/DosageConvertor
+ WARNING !!! Parameter --buffer will be ignored when be used with --type "plink" !
+
+ ------------------------------------------------------------------------------
+                             INPUT VCF DOSAGE FILE                             
+ ------------------------------------------------------------------------------
+
+ Detecting Dosage File Type ... 
+
+ Format = VCF (Variant Call Format) 
+
+ Calculating number of Samples in VCF File ...
+ Calculating number Markers in VCF File ...
+
+
+ Number of Samples read from VCF Dosage File              : 12684
+ Number of Markers read from VCF Dosage File              : 277
+
+
+
+ Number of Imputed Variants                               : 277
+ Number of Genotyped and Imputed Variants                 : 0
+ Number of Genotyped Only Variants                        : 0
+
+ Loading Dosage Data from VCF File       : /mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Vali_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KOR/KoGES.vars.vcf.gz
+
+ Reading and Importing Data from VCF File ...
+
+    Writing to PLINK output file ...
+    Finished Writing ALL markers to PLINK output file ...
+
+
+ Number of Samples read from VCF Dosage File              : 12684
+ Number of Markers read from VCF Dosage File              : 277
+
+ ------------------------------------------------------------------------------
+                                PLINK OUTPUT FILE                            
+ ------------------------------------------------------------------------------
+
+
+ Dosage Information written to PLINK Dosage File  : /mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Vali_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES.vars_beta.plink.dosage.gz 
+ Map Information written to PLINK Map File        : /mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Vali_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES.vars_beta.plink.map 
+ Family Information written to PLINK Fam File     : /mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Vali_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES.vars_beta.plink.fam 
+
+ ------------------------------------------------------------------------------
+                                END OF PROGRAM                                 
+ ------------------------------------------------------------------------------
+
+ Program Successfully Implemented... 
+ 
+ Total Run completed in 0 hours, 0 mins, 4 seconds.
+
+ Thank You for using DosageConvertor !!! 
+
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Vali_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES_Train_T2D_Result.log.
+Options in effect:
+  --dosage /mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Vali_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES.vars_beta.plink.dosage.gz format=1 noheader
+  --fam /mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Vali_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES.vars_beta.plink.fam
+  --out /mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Vali_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES_Train_T2D_Result
+  --score /mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Vali_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES_Train_T2D_input.txt 1 2 3 header sum include-cnt double-dosage
+
+15858 MB RAM detected; reserving 7929 MB for main workspace.
+12684 people (0 males, 0 females, 12684 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Vali_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES_Train_T2D_Result.nosex
+.
+Using 1 thread (no multithreaded calculations invoked).
+12684 people pass filters and QC.
+Note: No phenotypes present.
+--score: 276 entries loaded from
+/mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Vali_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES_Train_T2D_input.txt.
+--dosage: Reading from
+/mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Vali_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES.vars_beta.plink.dosage.gz.
+--score: Results written to
+/mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Vali_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES_Train_T2D_Result.profile
+.
+==========================================
+Start Trait_PRS_addPheno.R
+==========================================
+
+[1] "/mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Vali_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000"
+[1] "Start_make_add_pheno"
+[1] "Finish"
+==========================================
+Start Trait_PRS_histogram.R
+==========================================
+
+[[1]]
+[1] "ggplot2"   "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[7] "methods"   "base"     
+
+[[2]]
+[1] "dplyr"     "ggplot2"   "stats"     "graphics"  "grDevices" "utils"    
+[7] "datasets"  "methods"   "base"     
+
+            FID           IID SCORESUM   PHENO
+1 NIH21F5363215 NIH21F5363215  18.4879    Case
+2 NIH21F5959059 NIH21F5959059  17.3910    Case
+3 NIH21F5123242 NIH21F5123242  17.4431 Control
+4 NIH21F5370316 NIH21F5370316  16.9636 Control
+5 NIH21F5863110 NIH21F5863110  16.3159    Case
+6 NIH21F5596464 NIH21F5596464  17.1708 Control
+null device 
+          1 
+==========================================
+Start Trait_PRS_qualitative_result_LowHigh.R
+==========================================
+
+[[1]]
+[1] "ggplot2"   "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[7] "methods"   "base"     
+
+[[2]]
+[1] "dplyr"     "ggplot2"   "stats"     "graphics"  "grDevices" "utils"    
+[7] "datasets"  "methods"   "base"     
+
+[[3]]
+ [1] "MASS"      "dplyr"     "ggplot2"   "stats"     "graphics"  "grDevices"
+ [7] "utils"     "datasets"  "methods"   "base"     
+
+[[4]]
+ [1] "ROCR"      "MASS"      "dplyr"     "ggplot2"   "stats"     "graphics" 
+ [7] "grDevices" "utils"     "datasets"  "methods"   "base"     
+
+==========================================
+Start Trait_PRS_ratio_KOR_LowHigh.R
+==========================================
+
+[[1]]
+[1] "ggplot2"   "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[7] "methods"   "base"     
+
+[[2]]
+[1] "dplyr"     "ggplot2"   "stats"     "graphics"  "grDevices" "utils"    
+[7] "datasets"  "methods"   "base"     
+
+[[3]]
+ [1] "MASS"      "dplyr"     "ggplot2"   "stats"     "graphics"  "grDevices"
+ [7] "utils"     "datasets"  "methods"   "base"     
+
+[[4]]
+ [1] "ROCR"      "MASS"      "dplyr"     "ggplot2"   "stats"     "graphics" 
+ [7] "grDevices" "utils"     "datasets"  "methods"   "base"     
+
+[1] "SEX IID and AGE IID are equal"
+Read 2537 items
+Read 1269 items
+Read 635 items
+Read 127 items
+Read 2537 items
+     IID                 Age             SEX       
+ Length:203         Min.   :60.00   Min.   :1.000  
+ Class :character   1st Qu.:62.00   1st Qu.:1.000  
+ Mode  :character   Median :65.00   Median :2.000  
+                    Mean   :64.86   Mean   :1.512  
+                    3rd Qu.:67.00   3rd Qu.:2.000  
+                    Max.   :73.00   Max.   :2.000  
+     IID                 Age             SEX     
+ Length:463         Min.   :60.00   Min.   :1.0  
+ Class :character   1st Qu.:61.00   1st Qu.:1.0  
+ Mode  :character   Median :64.00   Median :2.0  
+                    Mean   :64.24   Mean   :1.6  
+                    3rd Qu.:66.00   3rd Qu.:2.0  
+                    Max.   :78.00   Max.   :2.0  
+Read 1268 items
+     IID                 Age             SEX       
+ Length:125         Min.   :60.00   Min.   :1.000  
+ Class :character   1st Qu.:62.00   1st Qu.:1.000  
+ Mode  :character   Median :65.00   Median :2.000  
+                    Mean   :64.72   Mean   :1.528  
+                    3rd Qu.:67.00   3rd Qu.:2.000  
+                    Max.   :72.00   Max.   :2.000  
+     IID                 Age             SEX       
+ Length:210         Min.   :60.00   Min.   :1.000  
+ Class :character   1st Qu.:61.00   1st Qu.:1.000  
+ Mode  :character   Median :64.00   Median :2.000  
+                    Mean   :64.27   Mean   :1.657  
+                    3rd Qu.:66.00   3rd Qu.:2.000  
+                    Max.   :78.00   Max.   :2.000  
+Read 635 items
+     IID                 Age             SEX       
+ Length:70          Min.   :60.00   Min.   :1.000  
+ Class :character   1st Qu.:62.00   1st Qu.:1.000  
+ Mode  :character   Median :65.00   Median :2.000  
+                    Mean   :64.74   Mean   :1.514  
+                    3rd Qu.:67.00   3rd Qu.:2.000  
+                    Max.   :71.00   Max.   :2.000  
+     IID                 Age             SEX       
+ Length:89          Min.   :60.00   Min.   :1.000  
+ Class :character   1st Qu.:61.00   1st Qu.:1.000  
+ Mode  :character   Median :64.00   Median :2.000  
+                    Mean   :64.72   Mean   :1.708  
+                    3rd Qu.:67.00   3rd Qu.:2.000  
+                    Max.   :78.00   Max.   :2.000  
+Read 127 items
+     IID                 Age            SEX       
+ Length:19          Min.   :60.0   Min.   :1.000  
+ Class :character   1st Qu.:65.0   1st Qu.:1.000  
+ Mode  :character   Median :66.0   Median :1.000  
+                    Mean   :66.0   Mean   :1.421  
+                    3rd Qu.:67.5   3rd Qu.:2.000  
+                    Max.   :71.0   Max.   :2.000  
+     IID                 Age             SEX       
+ Length:21          Min.   :60.00   Min.   :1.000  
+ Class :character   1st Qu.:61.00   1st Qu.:2.000  
+ Mode  :character   Median :65.00   Median :2.000  
+                    Mean   :66.29   Mean   :1.762  
+                    3rd Qu.:68.00   3rd Qu.:2.000  
+                    Max.   :78.00   Max.   :2.000  
+            Case Control     ratio
+Dhigh80_All  487    2030  5.717652
+Dhigh90_All  299     956  8.308577
+Dhigh95_All  169     459 13.384852
+Dhigh99_All   41      84 20.174603
+           Case Control     ratio
+Dlow20_All  102    2431  5.717652
+Dlow10_All   46    1222  8.308577
+Dlow05_All   17     618 13.384852
+Dlow01_All    3     124 20.174603
+
+                ID X.CHROM       POS    absBETA absEA
+1 10:104906211_T/C      10 104906211 0.00514841     T
+2 10:112621837_T/C      10 112621837 0.05455570     C
+3 10:114758349_C/T      10 114758349 0.26282800     T
+4 10:122915345_G/A      10 122915345 0.04547320     A
+5  10:12307894_C/T      10  12307894 0.10494000     T
+6 10:124167512_C/T      10 124167512 0.04321170     C
+/mnt/nas/gylee/0.GWAS/4.PRS/KoGES
+
+
+ -------------------------------------------------------------------------------- 
+          DosageConvertor - Converting Dosage from Minimac3/4 to other Formats     
+ --------------------------------------------------------------------------------
+ (c) 2015 - Sayantan Das 
+
+ Version: 1.0.0;
+ Built: Mon Apr 17 04:52:11 UTC 2023 by root
+
+ URL = http://genome.sph.umich.edu/wiki/DosageConvertor
+ GIT = https://github.com/Santy-8128/DosageConvertor
+
+**************************************************************************************
+A new version, 1.0.4, of DosageConvertor is available (currently running 1.0.0)
+**************************************************************************************
+
+
+ Command Line Options: 
+        Input Dosage : --vcfDose [/mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Total_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KOR/KoGES.vars.vcf.gz],
+                       --info [], --tag [DS]
+   Output Parameters : --prefix [/mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Total_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES.vars_beta],
+                       --format [1], --type [plink], --nobgzip
+    Other Parameters : --buffer [10000], --allDiploid, --trimNames,
+                       --trimLength [100], --SexFile [], --idDelimiter [],
+                       --help, --params
+           PhoneHome : --noPhoneHome, --phoneHomeThinning [50]
+
+ WARNING !!! Parameter --buffer will be ignored when be used with --type "plink" !
+
+ ------------------------------------------------------------------------------
+                             INPUT VCF DOSAGE FILE                             
+ ------------------------------------------------------------------------------
+
+ Detecting Dosage File Type ... 
+
+ Format = VCF (Variant Call Format) 
+
+ Calculating number of Samples in VCF File ...
+ Calculating number Markers in VCF File ...
+
+
+ Number of Samples read from VCF Dosage File              : 63477
+ Number of Markers read from VCF Dosage File              : 277
+
+
+
+ Number of Imputed Variants                               : 277
+ Number of Genotyped and Imputed Variants                 : 0
+ Number of Genotyped Only Variants                        : 0
+
+ Loading Dosage Data from VCF File       : /mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Total_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KOR/KoGES.vars.vcf.gz
+
+ Reading and Importing Data from VCF File ...
+
+    Writing to PLINK output file ...
+    Finished Writing ALL markers to PLINK output file ...
+
+
+ Number of Samples read from VCF Dosage File              : 63477
+ Number of Markers read from VCF Dosage File              : 277
+
+ ------------------------------------------------------------------------------
+                                PLINK OUTPUT FILE                            
+ ------------------------------------------------------------------------------
+
+
+ Dosage Information written to PLINK Dosage File  : /mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Total_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES.vars_beta.plink.dosage.gz 
+ Map Information written to PLINK Map File        : /mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Total_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES.vars_beta.plink.map 
+ Family Information written to PLINK Fam File     : /mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Total_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES.vars_beta.plink.fam 
+
+ ------------------------------------------------------------------------------
+                                END OF PROGRAM                                 
+ ------------------------------------------------------------------------------
+
+ Program Successfully Implemented... 
+ 
+ Total Run completed in 0 hours, 0 mins, 21 seconds.
+
+ Thank You for using DosageConvertor !!! 
+
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Total_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES_Train_T2D_Result.log.
+Options in effect:
+  --dosage /mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Total_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES.vars_beta.plink.dosage.gz format=1 noheader
+  --fam /mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Total_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES.vars_beta.plink.fam
+  --out /mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Total_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES_Train_T2D_Result
+  --score /mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Total_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES_Train_T2D_input.txt 1 2 3 header sum include-cnt double-dosage
+
+15858 MB RAM detected; reserving 7929 MB for main workspace.
+63477 people (0 males, 0 females, 63477 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Total_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES_Train_T2D_Result.nosex
+.
+Using 1 thread (no multithreaded calculations invoked).
+63477 people pass filters and QC.
+Note: No phenotypes present.
+--score: 276 entries loaded from
+/mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Total_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES_Train_T2D_input.txt.
+--dosage: Reading from
+/mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Total_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES.vars_beta.plink.dosage.gz.
+--score: Results written to
+/mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Total_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000/KoGES_Train_T2D_Result.profile
+.
+==========================================
+Start Trait_PRS_addPheno.R
+==========================================
+
+[1] "/mnt/nas/gylee/0.GWAS/4.PRS/KoGES/Total_KoGES_Train_T2D.PMID35551307.5major.ancestry.277.5e-8.win250000.PMID33193685.EUR.EAS.Obesity.48.5e-8.win250000"
+[1] "Start_make_add_pheno"
+[1] "Finish"
+==========================================
+Start Trait_PRS_histogram.R
+==========================================
+
+[[1]]
+[1] "ggplot2"   "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[7] "methods"   "base"     
+
+[[2]]
+[1] "dplyr"     "ggplot2"   "stats"     "graphics"  "grDevices" "utils"    
+[7] "datasets"  "methods"   "base"     
+
+            FID           IID SCORESUM PHENO
+1 NIH21F5000003 NIH21F5000003  18.0362  Case
+2 NIH21F5565480 NIH21F5565480  18.4478  Case
+3 NIH21F5405912 NIH21F5405912  16.6306  Case
+4 NIH21F5867405 NIH21F5867405  18.9329  Case
+5 NIH21F5300119 NIH21F5300119  16.5855  Case
+6 NIH21F5306603 NIH21F5306603  16.7969  Case
+null device 
+          1 
+==========================================
+Start Trait_PRS_qualitative_result_LowHigh.R
+==========================================
+
+[[1]]
+[1] "ggplot2"   "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[7] "methods"   "base"     
+
+[[2]]
+[1] "dplyr"     "ggplot2"   "stats"     "graphics"  "grDevices" "utils"    
+[7] "datasets"  "methods"   "base"     
+
+[[3]]
+ [1] "MASS"      "dplyr"     "ggplot2"   "stats"     "graphics"  "grDevices"
+ [7] "utils"     "datasets"  "methods"   "base"     
+
+[[4]]
+ [1] "ROCR"      "MASS"      "dplyr"     "ggplot2"   "stats"     "graphics" 
+ [7] "grDevices" "utils"     "datasets"  "methods"   "base"     
+
+==========================================
+Start Trait_PRS_ratio_KOR_LowHigh.R
+==========================================
+
+[[1]]
+[1] "ggplot2"   "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[7] "methods"   "base"     
+
+[[2]]
+[1] "dplyr"     "ggplot2"   "stats"     "graphics"  "grDevices" "utils"    
+[7] "datasets"  "methods"   "base"     
+
+[[3]]
+ [1] "MASS"      "dplyr"     "ggplot2"   "stats"     "graphics"  "grDevices"
+ [7] "utils"     "datasets"  "methods"   "base"     
+
+[[4]]
+ [1] "ROCR"      "MASS"      "dplyr"     "ggplot2"   "stats"     "graphics" 
+ [7] "grDevices" "utils"     "datasets"  "methods"   "base"     
+
+[1] "SEX IID and AGE IID are equal"
+Read 12695 items
+Read 6347 items
+Read 3174 items
+Read 635 items
+Read 12695 items
+     IID                 Age             SEX       
+ Length:1107        Min.   :60.00   Min.   :1.000  
+ Class :character   1st Qu.:62.00   1st Qu.:1.000  
+ Mode  :character   Median :64.00   Median :2.000  
+                    Mean   :64.56   Mean   :1.507  
+                    3rd Qu.:67.00   3rd Qu.:2.000  
+                    Max.   :82.00   Max.   :2.000  
+     IID                 Age             SEX       
+ Length:2266        Min.   :60.00   Min.   :1.000  
+ Class :character   1st Qu.:62.00   1st Qu.:1.000  
+ Mode  :character   Median :64.00   Median :2.000  
+                    Mean   :64.28   Mean   :1.597  
+                    3rd Qu.:66.00   3rd Qu.:2.000  
+                    Max.   :86.00   Max.   :2.000  
+Read 6348 items
+     IID                 Age             SEX       
+ Length:679         Min.   :60.00   Min.   :1.000  
+ Class :character   1st Qu.:62.00   1st Qu.:1.000  
+ Mode  :character   Median :64.00   Median :2.000  
+                    Mean   :64.46   Mean   :1.526  
+                    3rd Qu.:67.00   3rd Qu.:2.000  
+                    Max.   :82.00   Max.   :2.000  
+     IID                 Age             SEX      
+ Length:1028        Min.   :60.00   Min.   :1.00  
+ Class :character   1st Qu.:62.00   1st Qu.:1.00  
+ Mode  :character   Median :64.00   Median :2.00  
+                    Mean   :64.32   Mean   :1.61  
+                    3rd Qu.:66.00   3rd Qu.:2.00  
+                    Max.   :80.00   Max.   :2.00  
+Read 3174 items
+     IID                 Age             SEX       
+ Length:380         Min.   :60.00   Min.   :1.000  
+ Class :character   1st Qu.:62.00   1st Qu.:1.000  
+ Mode  :character   Median :64.00   Median :2.000  
+                    Mean   :64.34   Mean   :1.532  
+                    3rd Qu.:67.00   3rd Qu.:2.000  
+                    Max.   :75.00   Max.   :2.000  
+     IID                 Age             SEX       
+ Length:446         Min.   :60.00   Min.   :1.000  
+ Class :character   1st Qu.:62.00   1st Qu.:1.000  
+ Mode  :character   Median :64.00   Median :2.000  
+                    Mean   :64.43   Mean   :1.643  
+                    3rd Qu.:67.00   3rd Qu.:2.000  
+                    Max.   :79.00   Max.   :2.000  
+Read 635 items
+     IID                 Age             SEX       
+ Length:99          Min.   :60.00   Min.   :1.000  
+ Class :character   1st Qu.:62.00   1st Qu.:1.000  
+ Mode  :character   Median :64.00   Median :1.000  
+                    Mean   :64.53   Mean   :1.465  
+                    3rd Qu.:67.00   3rd Qu.:2.000  
+                    Max.   :73.00   Max.   :2.000  
+     IID                 Age             SEX       
+ Length:74          Min.   :60.00   Min.   :1.000  
+ Class :character   1st Qu.:62.00   1st Qu.:1.000  
+ Mode  :character   Median :64.00   Median :2.000  
+                    Mean   :64.76   Mean   :1.676  
+                    3rd Qu.:67.00   3rd Qu.:2.000  
+                    Max.   :78.00   Max.   :2.000  
+            Case Control     ratio
+Dhigh80_All 2589   10014  6.402897
+Dhigh90_All 1572    4727 10.186241
+Dhigh95_All  892    2261 15.826740
+Dhigh99_All  221     407 42.557432
+           Case Control     ratio
+Dlow20_All  491   12160  6.402897
+Dlow10_All  200    6126 10.186241
+Dlow05_All   77    3089 15.826740
+Dlow01_All    8     627 42.557432

@@ -1,0 +1,12 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --bfile /scratch/hpc46a05/GWAS/result/QC_Imputed_CODA_QCsex/MaMi/QC_Imputed_CODA_QCsex  
+
+Hostname: login03
+Working directory: /scratch/hpc46a05/GWAS/Code/plink_code_folder/CODA
+Start time: Sat Apr  9 17:25:56 2022
+
+Error: --bfile accepts at most 1 parameter.
+For more information, try "plink --help <flag name>" or "plink --help | more".
+
+End time: Sat Apr  9 17:25:56 2022

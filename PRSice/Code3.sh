@@ -1,0 +1,20 @@
+singularity exec --bind /mnt/:/mnt/ /mnt/nas/gylee/Singurality/GWAS.sif Rscript PRSice.R \
+ --prsice ./PRSice_linux \
+ --base /mnt/nas/gylee/0.GWAS/2.SAIGE_result/KoGES_Train_T2D/result/KoGES_Train_T2D.result.forPRSice \
+ --target /mnt/nas/gylee/0.GWAS/2.plink_result/KoGES_Train_T2D/PRSice/imputation_g_m_maf_hwe_bfile \
+ --pheno /mnt/nas/gylee/0.GWAS/2.plink_result/KoGES_Train_T2D/PRSice/imputation_g_m_maf_hwe_bfile.pheno \
+ --a1 Allele1 \
+ --a2 Allele2 \
+ --snp ID \
+ --stat BETA \
+ --clump-kb 500kb \
+ --clump-p 1.000000 \
+ --clump-r2 0.100000 \
+ --beta \
+ --bar-levels 1e-8,5e-8,1e-6,5e-6,1e-5,5e-5,0.0001,0.001,0.05,0.1,0.2,0.3,0.4,0.5,1 \
+ --fastscore \
+ --binary-target T \
+ --out TEST3 \
+ --memory 120Gb \
+ --thread 16 \
+ --perm 10000
